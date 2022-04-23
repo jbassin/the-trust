@@ -1,0 +1,4 @@
+[submodule "curator/foundry"]
+	path = curator/foundry
+	url = https://gitlab.com/hooking/foundry-vtt---pathfinder-2e.git
+	shallow = true
