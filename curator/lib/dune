@@ -1,0 +1,6 @@
+(library
+ (inline_tests)
+ (name curator)
+ (libraries async core hmap yojson)
+ (preprocess
+  (pps ppx_inline_test ppx_jane ppx_yojson_conv)))
