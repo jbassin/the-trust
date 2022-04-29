@@ -91,7 +91,10 @@ module Make (P : P) : S with type t = P.t = struct
               <- String.Map.set internal.next_info.manual ~key ~data;
             P.lookup data |> Option.value ~default:P.default
           | None ->
-            (match Spec.resolve P.accessor json with
+            (match
+               try Spec.resolve P.accessor json with
+               | _ -> None
+             with
             | Some t -> t
             | None ->
               (match String.Map.find internal.prev_info.computed key with

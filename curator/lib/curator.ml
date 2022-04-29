@@ -22,7 +22,11 @@ let command =
      in
      fun () ->
        Runner.run
-         [ (module Action.Param); (module Background.Param); (module Condition.Param) ]
+         [ (module Action.Param)
+         ; (module Archetype.Param)
+         ; (module Background.Param)
+         ; (module Condition.Param)
+         ]
          ~patch_path
          ~db_path
          ~data_path)

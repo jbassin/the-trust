@@ -120,7 +120,13 @@ module Rhs = struct
   ;;
 
   let id = !!"_id" > string
-  let name = !!"name" > string
+
+  let name : string t =
+   fun json ->
+    let name = !!"name" > string in
+    String.strip (name json)
+ ;;
+
   let data = !!"data"
   let description = data / "description" >> string
 end
