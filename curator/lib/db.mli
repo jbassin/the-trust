@@ -5,8 +5,8 @@ open! Import
 module Brand : sig
   type 'a t
 
+  val create : string -> _ t
   val file : _ t -> string
-  val dummy : unit t
 end
 
 type t

@@ -10,7 +10,6 @@ module Brand = struct
 
   let create name = { key = Hmap.Key.create (); name }
   let file { name; _ } = name
-  let dummy = create "dummy"
 end
 
 type t = { mutable db : Hmap.t }

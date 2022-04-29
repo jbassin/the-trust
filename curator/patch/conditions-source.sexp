@@ -1,0 +1,13 @@
+((computed
+  ((Blinded (CR)) (Broken (CR)) (Clumsy (CR)) (Concealed (CR))
+   (Confused (CR)) (Controlled (CR)) (Dazzled (CR)) (Deafened (CR))
+   (Doomed (CR)) (Drained (CR)) (Dying (CR)) (Encumbered (CR))
+   (Enfeebled (CR)) (Fascinated (CR)) (Fatigued (CR)) (Flat-Footed (CR))
+   (Fleeing (CR)) (Friendly (CR)) (Frightened (CR)) (Grabbed (CR))
+   (Helpful (CR)) (Hidden (CR)) (Hostile (CR)) (Immobilized (CR))
+   (Indifferent (CR)) (Invisible (CR)) (Observed (CR)) (Paralyzed (CR))
+   ("Persistent Damage" (CR)) (Petrified (CR)) (Prone (CR)) (Quickened (CR))
+   (Restrained (CR)) (Sickened (CR)) (Slowed (CR)) (Stunned (CR))
+   (Stupefied (CR)) (Unconscious (CR)) (Undetected (CR)) (Unfriendly (CR))
+   (Unnoticed (CR)) (Wounded (CR))))
+ (manual ()))

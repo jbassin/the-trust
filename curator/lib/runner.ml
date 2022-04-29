@@ -14,14 +14,15 @@ type t = { db : Db.t }
 let create () = { db = Db.create () }
 
 let init _ (module P : S) ~patch_path =
-  Deferred.List.iter P.patchers ~f:(fun (module P : Patcher_intf.S) -> P.init patch_path)
+  Deferred.List.iter P.patchers ~f:(fun (module P : Patcher_intf.Inner) ->
+      P.init patch_path)
 ;;
 
 let ingest { db } (module P : S) ~db_path =
   let db_path = [%string "%{db_path}/%{P.db_name}.db"] in
   let%bind files = Async_unix.Sys.ls_dir db_path in
   Deferred.List.iter files ~f:(fun file ->
-      let%bind contents = Reader.file_contents file in
+      let%bind contents = Reader.file_contents [%string "%{db_path}/%{file}"] in
       let raw = Json.from_string ~fname:file contents in
       match P.ingest raw with
       | None -> return ()
@@ -48,7 +49,8 @@ let save { db } (module P : S) ~patch_path ~data_path =
   in
   let contents = Json.pretty_to_string (`List data) in
   let%bind () = Writer.save data_path ~contents in
-  Deferred.List.iter P.patchers ~f:(fun (module P : Patcher_intf.S) -> P.save patch_path)
+  Deferred.List.iter P.patchers ~f:(fun (module P : Patcher_intf.Inner) ->
+      P.save patch_path)
 ;;
 
 let run params ~patch_path ~db_path ~data_path =
