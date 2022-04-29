@@ -31,6 +31,11 @@ module Param : Runner_intf.S = struct
 
   let steps = []
 
+  let re =
+    let open Re in
+    seq [ str "pf2e.feats-srd."; group (shortest (rep1 any)); str "]" ] |> compile
+  ;;
+
   let ingest json =
     let (module SourcePatcher : Patcher_intf.S with type t = Source.t) = sourcePatcher in
     let raw =
@@ -38,7 +43,12 @@ module Param : Runner_intf.S = struct
       and name = name
       and description = !!"content" > string
       and source = SourcePatcher.patch in
-      { id; name; description; source; associated_feats = [] }
+      let associated_feats =
+        Re.all re description
+        |> List.map ~f:(Fn.flip Re.Group.get 1)
+        |> List.dedup_and_sort ~compare:String.compare
+      in
+      { id; name; description; source; associated_feats }
     in
     Some (Spec.resolve raw json)
   ;;
