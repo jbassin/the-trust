@@ -98,6 +98,12 @@ module Rhs = struct
     | json -> raise_s [%message "failed to convert to list" (json : Json.t)]
   ;;
 
+  let maybe (cast : 'a t) : 'a option t =
+   fun json ->
+    try Some (cast json) with
+    | _ -> None
+ ;;
+
   let int : int t = function
     | `Int t -> t
     | json -> raise_s [%message "failed to convert to integer" (json : Json.t)]

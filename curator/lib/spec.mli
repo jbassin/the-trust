@@ -14,6 +14,7 @@ module Rhs : sig
   val ( > ) : string list -> 'a t -> 'a t
   val ( >> ) : string list -> 'a t -> 'a t
   val list : 'a t -> 'a list t
+  val maybe : 'a t -> 'a option t
   val int : int t
   val bool : bool t
   val string : string t
