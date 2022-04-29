@@ -12,7 +12,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "FzZAYGib08aEq5P2",
@@ -24,13 +24,13 @@
     "description":
       "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Effect</strong> You make a Strike with a ranged weapon, rolling the attack and damage twice and using the better results for each. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being @Compendium[pf2e.conditionitems.Concealed]{Concealed} or @Compendium[pf2e.conditionitems.Hidden]{Hidden}.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "2KV87ponbWXgGIhZ",
@@ -43,13 +43,13 @@
     "description":
       "<p><strong>Frequency</strong> once per round</p>\n<p>You and your eidolon act as one. Either you or your eidolon takes an action or activity using the same number of actions as Act Together, and the other takes a single action.</p>\n<p>For example, if you spent 2 actions to Act Together, you could cast <em>@Compendium[pf2e.spells-srd.Burning Hands]{Burning Hands}</em> (2 actions) and your eidolon could Strike (1 action), or your eidolon could use its Breath Weapon (2 actions) and you could Stride (1 action).</p>\n<p>This lets you each use separate exploration activities like @Compendium[pf2e.actionspf2e.Avoid Notice]{Avoid Notice} as you travel.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "MHLuKy4nQO2Z4Am1",
@@ -68,7 +68,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "9Nmz5114UB87n7Aj",
@@ -80,13 +80,13 @@
     "description":
       "<p>You affix a fulu to an armor, weapon, shield, creature, or structure that's beside or in the same square as you. A creature can remove a fulu from itself or an unattended object in its reach with a single action.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "UAaQk93a30nx0nYY",
@@ -105,7 +105,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "HCl3pzVefiv9ZKQW",
@@ -123,7 +123,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "akmQzZoNhyfCKFpL",
@@ -141,7 +141,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "8aIe57gXJ94mPpW4",
@@ -159,7 +159,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "xpsD4DsYHKXCB4ac",
@@ -171,13 +171,13 @@
     "description":
       "<p>You send your roots deeper into the ground, making it harder for you to stumble. Until you move, you gain a +2 circumstance bonus to your Fortitude or Reflex DC against attempts to Shove or Trip you (or a +4 circumstance bonus if you're a root leshy). This bonus also applies to saving throws against spells or effects that attempt to move you or knock you prone.</p>\n<p>If an effect forces you to move, you move only half the normal distance, as some of the effort goes to tearing out the roots. At the GM's discretion, this ability might not work on ground that's more resilient than stone, such as metal flooring or magically-reinforced masonry.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Lost Omens: Ancestry Guide",
+      "short_name": "Ancestry Guide",
+      "abbreviation": "LO:AG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "HbejhIywqIufrmVM",
@@ -191,13 +191,13 @@
     "description":
       "<p><strong>Requirements</strong> You used your most recent action to Cast a Spell or make a Spellstrike.</p>\n<p><strong>Grants</strong> @Compendium[pf2e.feature-effects.Stance: Arcane Cascade]{Stance: Arcane Cascade}</p>\n<hr />\n<p>You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes deal [[/r {1}]]{1 extra damage}. This damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the arcane trait, making it magical.</p>\n<p>If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage). If the spell couldn't deal damage, this stance's bonus damage depends on the spell's school.</p>\n<ul>\n<li><strong>Abjuration</strong> or <strong>Evocation</strong> force</li>\n<li><strong>Conjuration</strong> or <strong>Transmutation</strong> same type as your weapon or unarmed attack</li>\n<li><strong>Divination</strong>, <strong>Enchantment</strong>, or <strong>Illusion</strong> mental</li>\n<li><strong>Necromancy</strong> negative</li>\n</ul>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "8b63qGzqSUENQgOT",
@@ -209,13 +209,13 @@
     "description":
       "<p><strong>Effect</strong> You snap your fingers. The armor returns to your body.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "qm7xptMSozAinnPS",
@@ -233,7 +233,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "KAVf7AmRnbCAHrkT",
@@ -248,7 +248,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "9sXQf1SyppS5B6O1",
@@ -263,7 +263,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "UWdRX1VelipCzrCg",
@@ -281,7 +281,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "IE2nThCmoyhQA0Jn",
@@ -299,7 +299,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "M76ycLAqHoAgbcej",
@@ -317,7 +317,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "b3h3QqvwS5fnaiu1",
@@ -326,13 +326,13 @@
     "description":
       "<p><strong>Trigger</strong> A creature within 30 feet Casts a Spell that has a verbal component or Activates an Item using a command Activation</p>\n<p><strong>Effect</strong> You set off a firework to explode with a loud screech near the creature. The creature must attempt a Will save.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature must use an additional action on the triggering action or activity, or it's disrupted.</p>\n<p><strong>Critical Failure</strong> The triggering action is disrupted.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "oAWNluJaMlaGysXA",
@@ -350,7 +350,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "dCuvfq3r2K9wXY9g",
@@ -362,13 +362,13 @@
     "description":
       "<p>You make a graceful, deadly attack. Make a Strike; if you hit and your weapon qualifies for @Compendium[pf2e.classfeatures.Precise Strike]{Precise Strike}, you deal the full [[/r {1d6}]]{1d6 damage} from precise strike.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "cx0juTYewwBmrYWv",
@@ -380,13 +380,13 @@
     "description":
       "<p>Your eidolon rushes forward, using its momentum to increase the power of its attack. Your eidolon Strides twice and then Strikes. If the eidolon moved at least 20 feet away from its starting position and moved entirely in a straight line, it gains a +1 circumstance bonus to this attack roll.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "3cuTA58ObXhuFX2r",
@@ -399,13 +399,13 @@
     "description":
       "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> Your turn begins</p>\n<p><strong>Effect</strong> You are @Compendium[pf2e.conditionitems.Quickened]{Quickened} this turn. You can use your extra action to Stride.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "a47Npi5XHXo47y49",
@@ -420,7 +420,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "bG91dbtbgOnw7Ofx",
@@ -438,7 +438,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "vZltxwRNvF5khf9a",
@@ -450,13 +450,13 @@
     "description":
       "<p>Either Stride twice or attempt an Acrobatics check (DC determined by the GM, but usually DC 20) to swing on a rope up to twice your Speed.</p>\n<p>If you boarded or disembarked from a boat or similar vehicle during this movement, you can make a melee Strike that deals one additional weapon damage die.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "OizxuPb44g3eHPFh",
@@ -475,7 +475,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Xg57qG1rOfSSobke",
@@ -495,7 +495,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "Lt591Og3XRhx5dRx",
@@ -510,13 +510,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[acid]]]{1d6 acid damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[acid]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "slwllcUtVhoCdBuM",
@@ -531,13 +531,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[acid]]]{1d6 acid damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[acid]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "auOTjKr8gB1dqFh4",
@@ -552,13 +552,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[cold]]]{1d6 cold damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[cold]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "grkggNQnOxWWsjBH",
@@ -573,13 +573,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[cold]]]{1d6 cold damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[cold]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "LfsQy2T8GjpuMqAh",
@@ -594,13 +594,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[electricity]]]{1d6 electricity damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[electricity]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "3UEwtMA5y8foVqYP",
@@ -615,13 +615,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[electricity]]]{1d6 electricity damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[electricity]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "JqThDeWlGobiAPJd",
@@ -636,13 +636,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[fire]]]{1d6 fire damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[fire]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "90fHUm0HGZFAbG1K",
@@ -657,13 +657,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[fire]]]{1d6 fire damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[fire]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "5Vuhf4DjvMvRqiEZ",
@@ -678,13 +678,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[negative]]]{1d6 negative damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[negative]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "EmFzFAwgQ0lJZwba",
@@ -699,13 +699,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[negative]]]{1d6 negative damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[negative]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "0XiPnnxKHWKFg1tN",
@@ -719,13 +719,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[piercing]]]{1d6 piercing damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[piercing]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "QQQaV7pi9Gv2GpLj",
@@ -739,13 +739,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[piercing]]]{1d6 piercing damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[piercing]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "NEBuuhjZE9BL3I8v",
@@ -760,13 +760,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[poison]]]{1d6 poison damage} to all creatures in a @Template[type:cone|distance:30], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[poison]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "AWXPiqz4xDN03iPs",
@@ -781,13 +781,13 @@
     "description":
       "<p>Your eidolon exhales a blast of destructive energy. Your eidolon deals [[/r {1d6}[poison]]]{1d6 poison damage} to all creatures in a @Template[type:line|distance:60], with a basic Reflex save against your spell DC.</p>\n<p>Your eidolon then can't use their Breath Weapon again for the next [[/r 1d4 #rounds]]{1d4 rounds}.</p>\n<p>At 3rd level and every 2 levels thereafter, the damage increases by 1d6. [[/r ((floor(@actor.level/2))d6)[poison]]]{Levelled Damage}</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "SMF1hTWPHtmlS8Cd",
@@ -799,13 +799,13 @@
     "description":
       "<p><strong>Requirements</strong> You're unarmored and wielding a simple firearm, bayonet, or reinforced stock</p>\n<p><strong>Effect</strong> You enter a specialized stance for a unique martial art centered around the use of simple firearms. While in this stance, the only Strikes you can make are those using bayonets, reinforced stocks, and simple firearms. You can use Flurry of Blows with these weapons. You can use your other monk feats or monk abilities that normally require unarmed attacks with bayonets and reinforced stocks, so long as the feat or ability doesn't require a single, specific Strike. You can also use them with simple firearms when attacking within half the first range increment.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "H6v1VgowHaKHnVlG",
@@ -824,7 +824,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "8kGpUUUSX1sB2OqQ",
@@ -842,7 +842,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "ESMIHOOahLQoqxW1",
@@ -855,13 +855,13 @@
     "description":
       "<p><strong>Effect</strong> You hold aloft a free hand and call the firearm or crossbow you chose during your daily preparations into your hand. As long as the weapon you chose is on the same plane, it appears in your hand.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "mk6rzaAzsBBRGJnh",
@@ -879,7 +879,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "8w6esW689NNbbq3i",
@@ -894,7 +894,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "k5TASjIxghvGCy7g",
@@ -912,7 +912,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "aBQ8ajvEBByv45yz",
@@ -924,13 +924,13 @@
     "description":
       "<p>You cast a spell you have prepared or in your repertoire. Casting a Spell is a special activity that takes a variable number of actions depending on the spell, as listed in each spell's stat block. As soon as the spellcasting actions are complete, the spell effect occurs.</p>\n<p>Some spells are cast as a reaction or free action. In those cases, you Cast the Spell as a reaction or free action (as appropriate) instead of as an activity. Such cases will be noted in the spell's stat block-for example, \"[reaction] verbal.\"</p>\n<p><strong>Long Casting</strong> Times Some spells take minutes or hours to cast. The Cast a Spell activity for these spells includes a mix of the listed spell components, but it's not necessary to break down which one you're providing at a given time. You can't use other actions or reactions while casting such a spell, though at the GM's discretion, you might be able to speak a few sentences. As with other activities that take a long time, these spells have the exploration trait, and you can't cast them in an encounter. If combat breaks out while you're casting one, your spell is disrupted.</p>\n<p><strong>Spell Components</strong> Each spell lists the spell components required to cast it after the action icons or text, such as \"[three-actions] material, somatic, verbal.\" The spell components, described in detail below, add traits and requirements to the Cast a Spell activity. If you can't provide the components, you fail to Cast the Spell.</p>\n<ul>\n<li>Material (manipulate)</li>\n<li>Somatic (manipulate)</li>\n<li>Verbal (concentrate)</li>\n<li>Focus (manipulate)</li>\n</ul>\n<p><strong>Disrupted and Lost Spells</strong> Some abilities and spells can disrupt a spell, causing it to have no effect and be lost. When you lose a spell, you've already expended the spell slot, spent the spell's costs and actions, and used the Cast a Spell activity. If a spell is disrupted during a @Compendium[pf2e.actionspf2e.Sustain a Spell]{Sustain a Spell} action, the spell immediately ends.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "2424g94rpoiN1IPh",
@@ -944,13 +944,13 @@
     "description":
       "<p><strong>Trigger</strong> determined by your catharsis emotion</p>\n<p><strong>Effect</strong> You gain the catharsis activation effects listed for your catharsis emotion. You gain that emotion's emotional fervor benefits for 3 rounds. When your emotional fervor ends, you suffer the listed emotional fallout. After using Catharsis, you can't use it again until you use the @Compendium[pf2e.actionspf2e.Settle Emotions]{Settle Emotions} activity.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "34E7k2YRcsOU5uyl",
@@ -966,13 +966,13 @@
     "description":
       "<p>You change into your human or spider shape. Each shape has a specific, persistent appearance.</p>\n<p>In your human shape, you can't use unarmed attacks granted by your ancestry. You aren't flat footed when climbing in your spider shape.</p>\n<p>However, in your spider shape you can't use weapons, shields, or other held items of any sort, and you are limited in what actions you can take that have the manipulate trait. The only manipulate actions you can take are to @Compendium[pf2e.actionspf2e.Cast a Spell]{Cast a Spell}with somatic components, weave silk or webbing, or simple @Compendium[pf2e.actionspf2e.Interact]{Interact} actions such as opening an unlocked door. Your spider legs can't perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish. The GM might determine other manipulate actions are appropriate for your spider legs.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Lost Omens: Ancestry Guide",
+      "short_name": "Ancestry Guide",
+      "abbreviation": "LO:AG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "0b3TTeQGFOiy6ykz",
@@ -987,13 +987,13 @@
     "description":
       "<p>You change into your humanoid or hybrid shape. Each shape has a specific, persistent appearance, and most beastkin remain in their hybrid shapes by default.</p>\n<p>In hybrid shape, you appear as a mix between your ancestry and your inherent animal. While in hybrid shape, you gain a jaws unarmed Strike resembling the features of your inherent animal (fangs for bats, beaks for eagles, mandibles for wasps, and so on). Your jaws deal 1d4 piercing damage, have the agile, finesse, and unarmed traits, and are in the brawling weapon group.</p>\n<p>In your humanoid shape, you retain the appearance of your original ancestry.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Lost Omens: Ancestry Guide",
+      "short_name": "Ancestry Guide",
+      "abbreviation": "LO:AG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "wwvPiG2kET2rkSAG",
@@ -1009,13 +1009,13 @@
     "description":
       "<p>You transform into a specific alternate form determined by your heritage. If your heritage doesn't list a form, your alternate form is a tailless form, which is a common Medium humanoid ancestry prevalent where you grew up (typically human). This form is the same age and body type as your true form and has roughly analogous physical traits, such as hair color. Using Change Shape counts as creating a disguise for the Impersonate use of Deception. You lose any unarmed Strikes you gained from a kitsune heritage or ancestry feat in this form. You can remain in your alternate form indefinitely, and you can shift back to your true kitsune form by using this action again.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Lost Omens: Ancestry Guide",
+      "short_name": "Ancestry Guide",
+      "abbreviation": "LO:AG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "uOlyklPCUWLtCaYI",
@@ -1033,7 +1033,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "ZhKXvnw7ND2hQ2pp",
@@ -1045,13 +1045,13 @@
     "description":
       "<p>You meditate, pray, or otherwise try to reinforce your soul's connection to your soulforged armament. This takes 10 minutes. Attempt a counteract check against your <em>soulforged corruption</em>. The counteract level is half your level rounded up, and the counteract check modifier is your Religion modifier. If successful, reduce the stage of your <em>soulforged corruption</em> by 1 (to a minimum of Stage 1).</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "tw1KDRPdBAkg5DlS",
@@ -1063,13 +1063,13 @@
     "description":
       "<p><strong>Requirements</strong> You're wielding a two-handed firearm or two-handed crossbow.</p>\n<hr />\n<p>You push outward with your weapon to clear some space before quickly reloading a fresh round. You make an Athletics check to @Compendium[pf2e.actionspf2e.Shove]{Shove} an opponent within your reach using your weapon, then Interact to reload. For this Shove, you don't need a free hand, and you add the weapon's item bonus on attack rolls (if any) to the Athletics check. If your last action was a ranged Strike with the weapon, use the same multiple attack penalty as that Strike for the Shove; the Shove still counts toward your multiple attack penalty on further attacks as normal.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "pprgrYQ1QnIDGZiy",
@@ -1088,7 +1088,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "25WDi1cVUrW92sUj",
@@ -1107,7 +1107,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "tHCqgwjtQtzNqVvd",
@@ -1130,7 +1130,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "q9nbyIF0PEBqMtYe",
@@ -1150,7 +1150,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "qVNVSmsgpKFGk9hV",
@@ -1170,7 +1170,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "BKnN9la3WNrRgZ6n",
@@ -1188,7 +1188,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "K878asDgf1EF0B9S",
@@ -1203,7 +1203,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "KC6o1cvbr45xnMei",
@@ -1216,13 +1216,13 @@
     "description":
       "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Effect</strong> You conjure an ordinary level-0 bolt or bullet out of thin air and then immediately Interact to load it into your weapon. If the bolt or bullet isn't fired before the end of your turn, the effect is wasted.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "mech0dhb4eKbCAu0",
@@ -1231,13 +1231,13 @@
     "description":
       "<p><strong>Cost</strong> 2 batches of infused reagents</p>\n<p><strong>Effect</strong> Choose either auditory or visual effects. The display gains that trait, and you attempt to counteract one or more effects within 60 feet that have this trait. On a success, the effect is suppressed until the start of your next turn, rather than ending entirely. Use your Fireworks Lore modifier as your counteract modifier, and your counteract level is equal to half your advanced alchemy level (rounded up). A coughing dragon costs 2 batches of infused reagents rather than 1, but you can increase the cost to 3 batches and spend an additional action to create an even bigger coughing dragon display that attempts to counteract both auditory and visual effects at the same time.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "SB7cMECVtE06kByk",
@@ -1258,7 +1258,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "gBhWEy3ToxQeCLQm",
@@ -1270,13 +1270,13 @@
     "description":
       "<p>You duck into a safe position or minimize your profile while reloading to make your next attack. Either @Compendium[pf2e.actionspf2e.Take Cover]{Take Cover} or attempt to @Compendium[pf2e.actionspf2e.Hide]{Hide}, then Interact to reload. As normal, you must meet the requirements to Take Cover or Hide; you must be @Compendium[pf2e.conditionitems.Prone]{Prone}, benefiting from cover, or near a feature that allows you to Take Cover, and you need to be benefiting from cover or @Compendium[pf2e.conditionitems.Concealed]{Concealed} to a creature to Hide from that creature.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "rmwa3OyhTZ2i2AHl",
@@ -1296,7 +1296,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "iBf9uGn5LOHkWpZ6",
@@ -1315,7 +1315,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "I75R9NSfsVrit6cU",
@@ -1333,7 +1333,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Tj055UcNm6UEgtCg",
@@ -1351,7 +1351,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "ftG89SjTSa9DYDOD",
@@ -1371,7 +1371,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "GkmbTGfg8KcgynOA",
@@ -1390,7 +1390,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "F4Tz0YFz1Lr4eVZR",
@@ -1409,7 +1409,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "ERNaJbLeFtdV96cZ",
@@ -1428,7 +1428,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "bp0Up04x3dzGK5bB",
@@ -1446,7 +1446,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "d9gbpiQjChYDYA2L",
@@ -1467,7 +1467,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "cYtYKa1gDEl7y2N0",
@@ -1485,7 +1485,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "5V49l0K460CcvBOO",
@@ -1497,13 +1497,13 @@
     "description":
       "<p><strong>Trigger</strong> The target takes damage</p>\n<p><strong>Requirements</strong> You're within 1 mile of the target</p>\n<p><strong>Effect</strong> After calculating the amount of damage the target would take (applying weaknesses, resistances, and the like), you lose an equal number of Hit Points, and the target doesn't take any of the damage. You can't reduce the amount of Hit Points you lose in this way. The target still takes any effects that would come with the damage, however, such as the venom on a viper's fangs Strike.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "A72nHGUtNXgY5Ey9",
@@ -1521,7 +1521,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "2u915NdUyQan6uKF",
@@ -1543,7 +1543,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "r5Uth6yvCoE4tr9z",
@@ -1561,7 +1561,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Yb0C1uLzeHrVLl7a",
@@ -1580,7 +1580,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "m0f2B7G9eaaTmhFL",
@@ -1600,7 +1600,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "cYdz2grcOcRt4jk6",
@@ -1619,7 +1619,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Dt6B1slsBy8ipJu9",
@@ -1638,7 +1638,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "AjLSHZSWQ90exdLo",
@@ -1657,7 +1657,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Fe487XZBdqEI2InL",
@@ -1671,13 +1671,13 @@
     "description":
       "<p>You imprint a bullet with a field of abjuration built upon your magical signature, disrupting the magic of whatever it hits. Make a firearm or crossbow Strike against a foe you can see. If you hit, you attempt to counteract a spell effect active on the target (your choice, or the highest-level effect if you don't choose). Your counteract level is equal to half your level (rounded up), and your counteract check modifier is equal to your class DC - 10.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "s2RrhZx1f1X4YnYV",
@@ -1689,13 +1689,13 @@
     "description":
       "<p><strong>Requirements</strong> You aren't immune to electricity</p>\n<p><strong>Trigger</strong> A creature within 30 feet of you is targeted by an electricity effect or is in the area of an electricity effect.</p>\n<p><strong>Effect</strong> You draw the electricity to yourself like a lightning rod in order to shield the target. If the triggering effect was targeted, it targets you instead of the triggering creature. If it was an area effect, it leaps from the triggering creature's space to fill your space instead. This doesn't divert lightning from any other creatures targeted by or in the area of the lightning. You're automatically hit by or automatically fail your save against the effect. You then can't Divert Lightning for [[/r 1d4 #rounds]]{1d4 rounds}.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "uMFB3uw8WTWL0LZD",
@@ -1707,13 +1707,13 @@
     "description":
       "<p>Your eidolon makes one Strike with their primary unarmed attack and two Strikes with their secondary unarmed attack (in any order). If any of these attacks critically hits an enemy, your eidolon instantly recovers the use of their Breath Weapon.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "v82XtjAVN4ffgVVR",
@@ -1732,7 +1732,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "8iCas8MeyqSXmE2a",
@@ -1741,13 +1741,13 @@
     "description":
       "<p><strong>Trigger</strong> You fall asleep within 5 miles of Xarwin Manor.</p>\n<p><strong>Frequency</strong> once per 12 hours</p>\n<hr />\n<p>While you sleep, you experience dreams that verge on nightmares. In these dreams, your mind drifts from your soul, and everything you know feels like it's being drawn up into the dark places between the stars to be devoured. During the dream, you can concentrate on one research topic you've unlocked that you haven't fully investigated. If you choose a topic for which the party has already discovered all research thresholds, you can immediately switch to a different topic.</p>\n<p>The skill you use and the DC for the check depend on the topic, as detailed in that topic's Dreams venue. If you're not dreaming within the manor grounds, the spiritual link to the malevolence is lessened and you take a -2 status penalty to the check.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain 2 RP.</p>\n<p><strong>Success</strong> You gain 1 RP.</p>\n<p><strong>Critical Failure</strong> You peer too far into the malevolence, which notices your attempt. You manage to break the mental link just before you lose some memories to its ravenous appetite. Increase your malevolence condition value by 1.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Adventure: Malevolence",
+      "short_name": "Malevolence",
+      "abbreviation": "A:M",
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "YMhmebfXAoOFXeSB",
@@ -1759,13 +1759,13 @@
     "description":
       "<p>You drift across the battlefield, striking down foes as you go. You Stride, and you can Strike up to three times at any points during your movement. Each attack must target a different enemy and must be made with a one-handed firearm, crossbow, melee weapon, or unarmed attack. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn't increase until you've made all your attacks. Your movement doesn't trigger reactions.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 3 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "uS3qDAgOkZ7b8ERL",
@@ -1783,7 +1783,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "HYNhdaPtF1QmQbR3",
@@ -1802,7 +1802,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "KyKXp599tK9BgodC",
@@ -1816,13 +1816,13 @@
     "description":
       "<p><strong>Trigger</strong> An enemy within 15 feet of you hits you with a Strike and deals damage to you.</p>\n<p><strong>Requirements</strong> Your eidolon is within 15 feet of you.</p>\n<p>Your eidolon instinctively flashes with ectoplasmic energy, allowing them to strike back against an enemy who dares to harm you. Your eidolon makes a melee unarmed Strike against the triggering enemy, even if that enemy isn't within your eidolon's reach.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "QyzlsLrqM0EEwd7j",
@@ -1841,7 +1841,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "DS9sDOWkXrz2xmHi",
@@ -1856,7 +1856,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 3 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "e2ePMDa7ixbLRryj",
@@ -1872,13 +1872,13 @@
     "description":
       "<p><strong>Prerequisites</strong> Trained in Diplomacy</p>\n<p><strong>Requirements</strong> The target ally lost Stamina Points within the last round</p>\n<hr />\n<p>You give an ally within 30 feet a quick pep talk, helping them recover. Attempt a Diplomacy check. The DC is usually 15, though the GM might adjust it based on the circumstances. If you have expert proficiency in Diplomacy, you can instead attempt a DC 20 check to increase the Stamina Points recovered by 5; if you have master proficiency, you can attempt a DC 30 check to increase the Stamina Points by 15; if you have legendary proficiency, you can attempt a DC 40 check to increase the Stamina Points by 25. No matter the result, the ally is temporarily immune to Encouraging Words until they either @Compendium[pf2e.actionspf2e.Take a Breather]{Take a Breather} or rest for the day.</p>\n<hr />\n<p><strong>Critical Success</strong> The ally recovers [[/r {2d8} #Stamina Points]]{2d8 Stamina Points}.</p>\n<p><strong>Success</strong> The ally recovers [[/r {1d8} #Stamina Points]]{1d8 Stamina Points}.</p>\n<p><strong>Critical Failure</strong> The ally takes [[/r {1d8}[mental]]]{1d8 mental damage}, but this can reduce only Stamina Points, never Hit Points.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Gamemastery Guide",
+      "short_name": "Gamemastery Guide",
+      "abbreviation": "GG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "7qjfYsLNTr17Aftf",
@@ -1897,7 +1897,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "TSDbyYRQwhIyY2Oq",
@@ -1911,13 +1911,13 @@
     "description":
       "<p><strong>Trigger</strong> You roll initiative.</p>\n<hr />\n<p>You unleash a small surge of magical energy into your weapon, shrouding the bullet with potential energy and granting it the ability to deal energy damage to your foes to exploit their weaknesses. You can Interact to draw a ranged weapon. On your first three Strikes of this encounter with a firearm or crossbow, you deal an additional 1 acid, cold, fire or electricity damage. You choose which damage type to deal as part of making each Strike.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "SkZAQRkLLkmBQNB9",
@@ -1936,7 +1936,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "GAoUxmcKx1vW3vEB",
@@ -1951,7 +1951,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "jftNJjBNxp2cleoi",
@@ -1969,7 +1969,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "naKVqd8POxcnGclz",
@@ -1984,13 +1984,13 @@
     "description":
       "<p>You intentionally take your innovation beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... hopefully. The explosion deals [[/r max(2, @actor.level)d6[fire]]]{leveled fire damage} with a @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true] to all creatures in a @Template[type:emanation|distance:5] around you (if you're wearing or holding the innovation) or around your innovation (if your innovation is a minion).</p>\n<p>At 3rd level, and every level thereafter, increase your explosion's damage by 1d6.</p>\n<p>If you have the breakthrough innovation class feature, you can choose either a 5-foot or @Template[type:emanation|distance:10] for the area when you use Explode; if you have the revolutionary innovation class feature, you can choose a 5-foot, 10-foot, or @Template[type:emanation|distance:15].</p>\n<p>@Check[type:flat|dc:17|name:Unstable Flat Check|showDC:all|traits:unstable]{Unstable Check}</p>\n<p>On a failure, the innovation malfunctions in a spectacular (though harmless) fashion, such as a belch of smoke or shower of sparks, and it becomes incapable of being used for further unstable actions.</p>\n<p>On a critical failure, you also take [[/r {@actor.level}[fire]]]{fire damage equal to your level}.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "QNAVeNKtHA0EUw4X",
@@ -2009,7 +2009,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "TMBXArwICQRJdwT6",
@@ -2022,13 +2022,13 @@
     "description":
       "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You attempt a skill check and haven't yet rolled</p>\n<hr />\n<p><strong>Effect</strong> Roll the skill check twice and use the better result</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "tNrBIYct9l1lrW1I",
@@ -2040,13 +2040,13 @@
     "description":
       "<p>Your eidolon extends its roots underground to entangle and possibly damage all foes nearby. All enemies within your eidolon's reach take damage of the same type and amount as your eidolon's most damaging Strike, depending on their Reflex saves. Any ongoing effects of the save last until the enemy either Escapes or leaves your eidolon's reach.</p>\n<p>After using Field of Roots, your eidolon is @Compendium[pf2e.conditionitems.Immobilized]{Immobilized} until it takes a single action, which has the manipulate trait, to detach from the ground; this also ends any remaining effects on enemies from Field of Roots.</p>\n<hr />\n<p><strong>Critical Success</strong> The enemy is unaffected.</p>\n<p><strong>Success</strong> The enemy takes no damage, but takes a -10 foot circumstance penalty to its Speeds.</p>\n<p><strong>Failure</strong> The enemy takes half damage, takes a -10-foot circumstance penalty to its Speeds, and, at the end of each of its turns, takes half damage again.</p>\n<p><strong>Critical Failure</strong> The enemy is immobilized, takes full damage, and, at the end of each of its turns, takes full damage again.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "hi56uHG1aAb84Zzu",
@@ -2061,13 +2061,13 @@
     "description":
       "<p><strong>Trigger</strong> A creature that you can see uses a mental effect against you</p>\n<p><strong>Effect</strong> The triggering creature must attempt a Will save, which has the following effects.</p>\n<hr />\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}, and you gain a +2 status bonus to your saving throw or other defense against the triggering mental effect.</p>\n<p><strong>Critical Failure</strong> The creature is frightened 2, and you're unaffected by the triggering mental effect.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "EHa0owz6mccnmSBf",
@@ -2082,7 +2082,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "4IxCKbGaEM9nUhld",
@@ -2094,13 +2094,13 @@
     "description":
       "<p><strong>Requirements</strong> On your last action, you failed (but didn't critically fail) a Strike with a firearm or crossbow you're holding in one hand, and your other hand is either wielding a melee weapon or empty.</p>\n<hr />\n<p>Your last attack failed, but it set you up for another. Make a Strike with your other hand, using a one-handed melee weapon or unarmed attack. This Strike uses the same multiple attack penalty as the Strike that failed on the last action. Afterward, increase your multiple attack penalty normally.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "UEkGL7uAGYDPFNfK",
@@ -2115,7 +2115,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "nbfNETdpee8CVM17",
@@ -2134,7 +2134,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "cS9nfDRGD83bNU1p",
@@ -2153,7 +2153,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "tfa4Sh7wcxCEqL29",
@@ -2174,7 +2174,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "SjmKHgI7a5Z9JzBx",
@@ -2193,7 +2193,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "VOEWhPQfN3lvHivK",
@@ -2202,13 +2202,13 @@
     "description":
       "<p><strong>Trigger</strong> The target of <em>foresight</em> defends against a hostile creature or other danger.</p>\n<p><strong>Effect</strong> If the hostile creature or danger forces the target to roll dice (a saving throw, for example), the target rolls twice and uses the higher result, and this spell gains the fortune trait. But if the hostile creature or danger is rolling against the target (an attack roll or skill check, for example), that hostile creature or danger rolls twice and uses the lower result, and this spell gains the misfortune trait.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "06frwOOuo4HJtivl",
@@ -2220,13 +2220,13 @@
     "description":
       "<p>Your eidolon channels its anger into a furious attack. It makes a melee Strike. This counts as two attacks when calculating your multiple attack penalty. If this Strike hits, your eidolon deals an extra die of weapon damage and gains a +1 circumstance bonus to the damage roll.</p>\n<p>If you're at least 10th level, increase this to two extra dice with a +2 circumstance bonus, and if you're at least 18th level, increase it to three extra dice with a +3 circumstance bonus.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "plBGdZhqq5JBl1D8",
@@ -2246,7 +2246,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "O1iircZOOCo42r9Y",
@@ -2259,13 +2259,13 @@
     "description":
       "<p>Make a firearm or crossbow Strike. If you're @Compendium[pf2e.conditionitems.Hidden]{Hidden} from or undetected by the target, the Strike adds the additional precision damage from One Shot, One Kill; if you would already receive that additional damage on the Strike, the effects aren't cumulative. If you were undetected or unnoticed by any creatures, you're now hidden from them instead, as the origin of the attack is clear.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "tuZnRWHixLArvaIf",
@@ -2283,7 +2283,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "izvfZ561JTdeyh6i",
@@ -2297,13 +2297,13 @@
     "description":
       "<p><strong>Cost</strong> 3 batches of infused reagents</p>\n<p><strong>Effect</strong> Chaos fills a @Template[type:burst|distance:20] within 120 feet. All creatures in the area takes [[/r {3d6}[fire] + {3d6}[sonic]]]{3d6 fire damage and 3d6 sonic damage} and must attempt a Fortitude save. A goblin jubilee display costs 3 batches of infused reagents, rather than 1.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @Compendium[pf2e.conditionitems.Dazzled]{Dazzled} and @Compendium[pf2e.conditionitems.Deafened]{Deafened} until the end of its next turn and takes half damage.</p>\n<p><strong>Failure</strong> The creature is dazzled and deafened for 1 minute and takes full damage.</p>\n<p><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.Blinded]{Blinded} for 1 round, dazzled and deafened for 1 minute, and takes double damage.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 3 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "3yoajuKjwHZ9ApUY",
@@ -2322,7 +2322,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "PMbdMWc2QroouFGD",
@@ -2341,7 +2341,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "rI2MSXR1MQzgQUO7",
@@ -2358,13 +2358,13 @@
     "description":
       "<p><strong>Requirements</strong> You have a one-handed firearm or one-handed crossbow visibly worn or wielded.</p>\n<hr />\n<p>You attempt to clear the room by promising a grim fate to anyone who doesn't do what you say, and quickly. Attempt a Deception or Intimidation check against the Will DCs of each creature within 30 feet, except for your allies. Regardless of whether you succeed or fail, each subject is temporarily immune to your Grim Swagger for 10 minutes. For example, if you attempt a Deception check, you lie and boast about your prowess or the large group of friends on their way to back you up. If you attempt an Intimidation check, you promise everyone in the room that you're going to be the last thing they see.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 3}. If it's lower level than you, it's also @Compendium[pf2e.conditionitems.Fleeing]{Fleeing} for 1 round.</p>\n<p><strong>Success</strong> The creature becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "h4Tzdhqfryp5m2fO",
@@ -2382,7 +2382,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "XMcnh4cSI32tljXa",
@@ -2401,7 +2401,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "2HJ4yuEFY1Cast4h",
@@ -2420,7 +2420,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "JYi4MnsdFu618hPm",
@@ -2439,7 +2439,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "JuqmIAnkL9hVGai8",
@@ -2458,7 +2458,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Q4kdWVOf2ztIBFg1",
@@ -2479,7 +2479,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "eReSHVEPCsdkSL4G",
@@ -2499,7 +2499,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "AJstokjdG6iDjVjE",
@@ -2521,7 +2521,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "rSpCV0leurp2Bg2d",
@@ -2535,13 +2535,13 @@
     "description":
       "<p><strong>Prerequisites</strong> At least one arcane or occult innate spell gained from a gnome heritage or gnome ancestry feat</p>\n<p><strong>Frequency</strong> Once per day</p>\n<p><strong>Trigger</strong> You are attacked by a foe</p>\n<hr />\n<p>The magic within you manifests as a natural reaction to threats. You gain the effects of <em>@Compendium[pf2e.spells-srd.Mirror Image]{Mirror Image}</em> but with two images instead of three. The tradition of this action matches the tradition of your gnome ancestry options.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "pvQ5rY2zrtPI614F",
@@ -2554,13 +2554,13 @@
     "description":
       "<p>You use your hand or hands to manipulate an object or the terrain. You can grab an unattended or stored object, open a door, or produce some similar effect. You might have to attempt a skill check to determine if your Interact action was successful.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Uq2qy9aGNQ5JcPI1",
@@ -2572,13 +2572,13 @@
     "description":
       "<p><strong>Trigger</strong> You roll initiative.</p>\n<hr />\n<p>You know trouble can lurk around every corner, and your hands never stray far from your holsters. You can Interact to draw a one-handed ranged weapon and can then Interact to draw a one-handed melee weapon. As your first action on your first turn, you can Stride as a free action toward an enemy you can perceive. If you can't perceive any enemies or can't end your movement closer to one, you can't use this Stride.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "lvqPQDdWT2DDO0k2",
@@ -2596,7 +2596,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "EwgTZBWsc8qKaViP",
@@ -2615,7 +2615,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Ul4I0ER6pj3U5eAk",
@@ -2630,7 +2630,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Aq2mXT2hLlstFL5C",
@@ -2645,7 +2645,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "M8RCbthRhB4bxO9t",
@@ -2667,7 +2667,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "hFRHPBj6wjAayNtW",
@@ -2687,7 +2687,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "wt6jdjjje16Nx34f",
@@ -2696,13 +2696,13 @@
     "description":
       "<p><strong>Cost</strong> 2 batches of infused reagents</p>\n<p><strong>Effect</strong> Target a flying creature within 60 feet. Until the start of your next turn, each time that creature attempts to Fly, they must succeed at an Acrobatics check to Maneuver in Flight against the DC of your fireworks display, or the Fly action is disrupted. If all the creature's attempts to Fly are disrupted, at the end of its turn, it falls harmlessly to the ground below. A jumping jenny costs 2 batches of infused reagents, rather than 1.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "yUjuLbBMflVum8Yn",
@@ -2714,13 +2714,13 @@
     "description":
       "<p><strong>Cost</strong> 1 or more batches of infused reagents</p>\n<p><strong>Requirements</strong> You have a free hand</p>\n<p><strong>Effect</strong> You set off a fireworks display. You can launch a normal firework to simply create a visual or audible signal within 20 feet or you can choose one of the following special effects. A firework display has the listed traits, and if it costs more than 1 batch of infused reagents, it is noted in its Cost entry.</p>\n<p><strong>Comet</strong> <span class=\"pf2-icon\">1</span> (visual) You shoot a streak of shining light in a @Template[type:line|distance:60]. All spaces in that line are lit with bright light until the start of your next turn. As part of this action, you can also Point Out a single creature in the line, and your allies do not need to hear or understand you.</p>\n<p><strong>Flower</strong> <span class=\"pf2-icon\">1</span> (visual) You ignite a ring of sparks, creating a shape that might be reminiscent of a flower blooming in the sky. Each enemy with 20 feet of you must attempt a Fortitude save. On a failure, the enemy is @Compendium[pf2e.conditionitems.Dazzled]{Dazzled} for 1 round, and on a critical failure they are dazzled for 2 rounds.</p>\n<p><strong>Salute</strong> <span class=\"pf2-icon\">1</span> (auditory) You create a startling bang or whistle, adding an auditory component to your fireworks display. When you launch a salute display, you can choose a @Compendium[pf2e.conditionitems.Confused]{Confused} or @Compendium[pf2e.conditionitems.Fascinated]{Fascinated} ally within 60 feet. If the ally you chose is fascinated, the noise is so violent that it acts as a hostile effect for the purpose of their fascinated condition (though it has no negative repercussions) automatically ending most applications of the fascinated condition. If they're confused, the sound is so loud and violent that it might snap the ally out of confusion. They can immediately attempt the flat check to remove the confused condition which normally occurs when a creature is damaged. If the confused condition has special rules that remove the flat check when taking damage or make the flat check harder, those rules also apply to the salute.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "d5I6018Mci2SWokk",
@@ -2739,7 +2739,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "yOtu5X3qWfjuX8Vy",
@@ -2752,13 +2752,13 @@
     "description":
       "<p>You spend a week trying to discover and learn a creature's name. The exact form of your effort varies depending on the skill you use, the resources you have available, and other circumstances. Decide if you are searching for the name of a specific individual or for names in general. If you're looking for the name of an individual, you must be able to clearly identify that individual; for example, \"the general leading the invasion\" is enough, but \"the person who killed the duchess\" isn't, if you don't know who killed the duchess. If you're searching for names more generally, name one creature type.</p>\n<p>The GM chooses a DC, typically based on the level of the creature in question. If you're seeking names more generally, the DC is typically based on the level of the creature whose name the GM decides to provide, usually a creature from the chosen type of your level or lower. The GM might modify the DC of the task based on the resources you have available, or on using an unusually appropriate or inappropriate skill, or on other circumstances. Attempt a check with a skill that could be used to Recall Knowledge about the creature's type. After attempting to Learn a Name, you typically can't try to learn the name of the same individual again unless you gain access to a substantial new source of information, as determined by the GM.</p>\n<hr />\n<p><strong>Critical Success</strong> You find one or more private names of the specific individual you chose, or the private name of a creature with the type you chose and a level equal to the task level. You also find hidden fragments of their true name and, at the GM's discretion, you might find a clue leading to an adventure where you can learn the rest of the true name.</p>\n<p><strong>Success</strong> As critical success, except you find only one private name and don't find hidden fragments of their true name.</p>\n<p><strong>Critical Failure</strong> If you were searching for the name of a specific individual, you find no new information and that individual becomes aware of your efforts. If you were searching for a general name of a specific type, you find a creature's name or names likely to get you in trouble, possibly the names of a different type of creature entirely.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Q5iIYCFdqJFM31GW",
@@ -2778,7 +2778,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "IX1VlVCL5sFTptEE",
@@ -2796,7 +2796,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "ewwCglB7XOPLUz72",
@@ -2818,7 +2818,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Iuq8CeNqv3a0oWfQ",
@@ -2827,13 +2827,13 @@
     "description":
       "<p><strong>Trigger</strong> The spell's target would take damage</p>\n<p><strong>Effect</strong> Reduce the triggering damage by 10, but you lose 5 Hit Points. Even if this reduces the damage to 0, the target still takes any effects that would come with the damage, such as the poison on a viper's fangs Strike.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The reaction reduces the damage by another 10, and you lose 5 more Hit Points. If you want to lose fewer Hit Points, you can choose to lower the damage reduction and HP lost to what any lower-level version of the spell could do without lowering the spell's actual level.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "9MJcQEMVVrmMyGyq",
@@ -2845,13 +2845,13 @@
     "description":
       "<p><strong>Trigger</strong> You roll initiative.</p>\n<hr />\n<p>You can posture defensively with firearms or crossbows, acting like a walking tower. Interact to draw a firearm or crossbow. You then position that weapon defensively, gaining a +1 circumstance bonus to AC until the start of your first turn, or a +2 circumstance bonus if the chosen weapon has the parry trait.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "JUvAvruz7yRQXfz2",
@@ -2870,7 +2870,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "DXIZ4DHGxhZiWNWb",
@@ -2888,7 +2888,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "OX4fy22hQgUHDr0q",
@@ -2910,7 +2910,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Qf1ylAbdVi1rkc8M",
@@ -2929,7 +2929,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "n5vwBnLSlIXL9ptp",
@@ -2945,13 +2945,13 @@
     "description":
       "<p>Your eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest it instead.</p>\n<p>The conduit that allows your eidolon to manifest is also a tether between you. Your eidolon must remain within 100 feet of you at all times and can't willingly go beyond that limit. If forced beyond this distance, or if you are reduced to 0 Hit Points, your eidolon's physical form dissolves: your eidolon unmanifests, and you need to use Manifest Eidolon to manifest it again.</p>\n<hr />\n<p><strong>Special</strong> This activity has the trait matching your eidolon's tradition (arcane, divine, occult, or primal).</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 3 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "KMKuJ0onVS72t9Fv",
@@ -2966,13 +2966,13 @@
     "description":
       "<p><strong>Requirements</strong> If summoning a weapon or shield, you have the hands free to wield it; if summoning armor, you aren't wearing any armor</p>\n<p><strong>Effect</strong> You immediately wield or wear the soulforged armament bound to you. The soulforged armament remains manifested until you Dismiss this effect.</p>\n<p>Once per day when you use this ability, you can manifest the armament's essence form. You gain the armament's essence power until it's Dismissed. After 1 minute, the essence form armament is automatically Dismissed.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "orjJjLdm4XNAcFi8",
@@ -2987,7 +2987,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 3 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "Rlp7ND33yYfxiEWi",
@@ -3006,7 +3006,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "CrUPaPlsxy2bswaT",
@@ -3025,7 +3025,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "74iat04PtfG8gn2Q",
@@ -3043,7 +3043,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "I9k9qe4gOT8UVK4e",
@@ -3055,13 +3055,13 @@
     "description":
       "<p><strong>Trigger</strong> A creature attempts a flat check to target you because you're @Compendium[pf2e.conditionitems.Concealed]{Concealed} or @Compendium[pf2e.conditionitems.Hidden]{Hidden} due to fog, haze, mist, or smoke</p>\n<hr />\n<p><strong>Effect</strong> You shroud yourself in mist, making it harder for your foe to hit you. If you're concealed, the DC of the flat check increases from 5 to 7; if you're hidden, it increases from 11 to 13.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Lost Omens: Ancestry Guide",
+      "short_name": "Ancestry Guide",
+      "abbreviation": "LO:AG",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "PM5jvValFkbFH3TV",
@@ -3080,7 +3080,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "00LNVSCbwJ8pszwE",
@@ -3099,7 +3099,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Tlrde2xh7AhesXNB",
@@ -3117,7 +3117,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "EfjoIuDmtUn4yiow",
@@ -3135,7 +3135,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "3D9kGfwg4LUZBR9A",
@@ -3148,13 +3148,13 @@
     "description":
       "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p>Temporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a @Check[type:crafting|dc:@self.level] that has a standard DC for your level.</p>\n<hr />\n<p><strong>Critical Success</strong> Your gizmos go into a state of incredible efficiency called critical overdrive, adding great power to your attacks. Your Strikes deal additional damage equal to your Intelligence modifier for 1 minute. After the Overdrive ends, your gizmos become unusable as they cool down or reset, and you can't use Overdrive for 1 minute.</p>\n<p>@Compendium[pf2e.feat-effects.Effect: Overdrive (Critical Success)]{Effect: Overdrive (Critical Success)}</p>\n<p><strong>Success</strong> Your gizmos go into overdrive, adding power to your attacks. As critical success, except the additional damage is equal to half your Intelligence modifier.</p>\n<p>@Compendium[pf2e.feat-effects.Effect: Overdrive (Success)]{Effect: Overdrive (Success)}</p>\n<p><strong>Failure</strong> You make a miscalculation and nothing happens.</p>\n<p><strong>Critical Failure</strong> Whoops! Something explodes. You take [[/r {@actor.level}[fire]]]{fire damage equal to your level}, and you can't use Overdrive again for 1 minute as your gizmos cool down and reset.</p>\n<hr />\n<p><strong>Special</strong> When under the effects of Overdrive, you can still use the @Compendium[pf2e.actionspf2e.Overdrive]{Overdrive} action. You can't extend your Overdrive's duration this way, but you can turn an overdrive into a critical overdrive if you critically succeed. A failure has no effect on your current Overdrive, and you end your Overdrive on a critical failure.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "ZJcc7KGOEsYvN6SE",
@@ -3166,13 +3166,13 @@
     "description":
       "<p><strong>Trigger</strong> A creature within 60 feet would make an attack roll against you</p>\n<p><strong>Effect</strong> The triggering creature must attempt a Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @Compendium[pf2e.conditionitems.Dazzled]{Dazzled} until the end of the current turn.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.Blinded]{Blinded} until the end of the current turn.</p>\n<p><strong>Critical Failure</strong> The target is blinded until the end of the current turn and dazzled for 1 minute.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "ijZ0DDFpMkWqaShd",
@@ -3191,7 +3191,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "EEDElIyin4z60PXx",
@@ -3210,7 +3210,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "2EE4aF4SZpYf0R6H",
@@ -3229,7 +3229,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "bCDMuu3tE4d6KHrJ",
@@ -3241,13 +3241,13 @@
     "description":
       "<p><strong>Requirements</strong> You're wielding a one-handed firearm or one-handed crossbow.</p>\n<p><strong>Trigger</strong> A foe within the first range increment of the one- handed firearm or one-handed crossbow you're wielding critically fails an attack roll against you.</p>\n<hr />\n<p>You punish your foe's failure with a shot. Make a Strike against the triggering foe with a one-handed firearm or one-handed crossbow.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "sn2hIy1iIJX9Vpgj",
@@ -3267,7 +3267,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "xccOiNL2W1EtfUYl",
@@ -3289,7 +3289,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "CIqiFw9rqYnuzggq",
@@ -3307,7 +3307,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "kbUymGTjbesOKsV6",
@@ -3320,13 +3320,13 @@
     "description":
       "<p>Your eidolon unleashes a primal roar or other such terrifying noise that fits your eidolon's form. Your eidolon attempts Intimidation checks to @Compendium[pf2e.actionspf2e.Demoralize]{Demoralize} each enemy that can hear the roar; these Demoralize attempts don't take any penalty for not sharing a language.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "vdnuczo4ktS7ow7N",
@@ -3340,13 +3340,13 @@
     "description":
       "<p><strong>Trigger</strong> You fail a saving throw, attack roll, or skill check</p>\n<p><strong>Effect</strong> You twist the prophecy in your favor, which will have consequences later. Reroll the failed check. You must use the result of the second roll.</p>\n<p>For 24 hours afterward, the GM can force you to reroll a successful saving throw, attack roll, or skill check as fate balances the scale. This is a misfortune effect. You can't use prophecy's pawn again until the GM uses this option or 24 hours pass, whichever comes first.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "EUcnU1JTJsMF2fVD",
@@ -3361,7 +3361,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "Ma93dpT4K7JbP9gu",
@@ -3380,7 +3380,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "xTK2zsWFyxSJvYbX",
@@ -3400,7 +3400,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "yzNJgwzV9XqEhKc6",
@@ -3419,7 +3419,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "QHFMeJGzFWj2QczA",
@@ -3438,7 +3438,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "RADNqsvAt4gP9FOX",
@@ -3450,13 +3450,13 @@
     "description":
       "<p>Your rapid or forceful words draw the enemy's attention away from your hands long enough to chamber another bullet. Interact to reload and then attempt a Deception check to Create a Diversion or an Intimidation check to Demoralize.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "Ah5g9pDwWF9b9VW9",
@@ -3477,7 +3477,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "xjGwis0uaC2305pm",
@@ -3495,7 +3495,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "xJEkXFJgEfEida27",
@@ -3517,7 +3517,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "FkfWKq9jhhPzKAbb",
@@ -3526,13 +3526,13 @@
     "description":
       "<p><strong>Trigger</strong> You use @Compendium[pf2e.feats-srd.Orc Ferocity]{Orc Ferocity}</p>\n<hr />\n<p>You lash out viciously even as you fend off death. Make a single melee Strike. If this Strike brings a foe to 0 Hit Points, this activation of Orc Ferocity doesn't count against its frequency.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "dLgAMt3TbkmLkUqE",
@@ -3551,7 +3551,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "DYn1igFjCGJEiP22",
@@ -3566,13 +3566,13 @@
     "description":
       "<p><strong>Trigger</strong> You miss with a firearm or crossbow Strike while using an ordinary level-0 bolt or bullet</p>\n<hr />\n<p>You amplify the connection between bullet and firearm, calling your missed shot back into your gun. The ammunition you just fired is reloaded back into your gun and immediately ready to fire again.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "KygTSeDvsFoSO6HW",
@@ -3592,7 +3592,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "B0Eu3EfwIa9kyDEA",
@@ -3612,7 +3612,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "1OagaWtBpVXExToo",
@@ -3632,7 +3632,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "SeUolRoPzorFUAaI",
@@ -3652,7 +3652,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "eT1jXYvz2YH70Ovp",
@@ -3672,7 +3672,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "B2BpIZFHoF9Kjzpx",
@@ -3692,7 +3692,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "LZgjpWd0pL3vK9Q1",
@@ -3712,7 +3712,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "KUfLlXDWTcAWhl8l",
@@ -3732,7 +3732,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "OSefkMgojBLqmRDh",
@@ -3751,7 +3751,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "wQYmDStjdjn0I26t",
@@ -3770,7 +3770,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "jSC5AYEfliOPpO3H",
@@ -3782,13 +3782,13 @@
     "description":
       "<p><strong>Requirements</strong> You're wielding a firearm or crossbow in one hand, and your other hand either wields a one-handed melee weapon or is empty.</p>\n<hr />\n<p>You make a melee attack and then reload your gun in one fluid movement. Strike an opponent within reach with your one-handed melee weapon (or, if your other hand is empty, with an unarmed attack), and then Interact to reload. You don't need a free hand to reload in this way.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "bT3skovyLUtP22ME",
@@ -3808,7 +3808,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "OQaFzDtVEOMWizJJ",
@@ -3827,7 +3827,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "DCb62iCBrJXy0Ik6",
@@ -3848,7 +3848,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "On5CQjX4euWqToly",
@@ -3863,7 +3863,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "XeZwXzR1KBlJF770",
@@ -3878,7 +3878,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "24PSsn1SKpUwYA1X",
@@ -3896,7 +3896,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "EAP98XaChJEbgKcK",
@@ -3914,7 +3914,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "lID4rJHAVZB6tavf",
@@ -3932,7 +3932,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 3 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "b6CanpXyUKJgxEwq",
@@ -3944,13 +3944,13 @@
     "description":
       "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A creature that has blood and is not at its maximum Hit Points hits you with a melee Strike</p>\n<hr />\n<p><strong>Effect</strong> You channel salt and brine from your blood into the creature's wounds. The creature must attempt a Fortitude save using your class DC or spell DC, whichever is higher. On a failure, the creature takes [[/r {1d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage} and is @Compendium[pf2e.conditionitems.Sickened]{Sickened 1} by the pain. On a critical failure, it instead takes [[/r {2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Acid Damage} and is @Compendium[pf2e.conditionitems.Sickened]{Sickened 2}.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Lost Omens: Ancestry Guide",
+      "short_name": "Ancestry Guide",
+      "abbreviation": "LO:AG",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "kV3XM0YJeS2KCSOb",
@@ -3969,7 +3969,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "TiNDYUGlMmxzxBYU",
@@ -3988,7 +3988,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "BlAOM2X92SI6HMtJ",
@@ -4007,7 +4007,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "nSTMF6kYIt6rXhJx",
@@ -4022,13 +4022,13 @@
     "description":
       "<p>Your eidolon's fury boils over into a reckless, out-of-control frenzy. While frenzied, your eidolon is affected by <em>boost eidolon</em> and gains temporary Hit Points equal to your level, but it takes a -2 penalty to AC. Your eidolon can't voluntarily end the frenzy or start another frenzy while in the frenzy.</p>\n<p>The frenzy lasts for 1 minute, after which it's @Compendium[pf2e.conditionitems.Fatigued]{Fatigued} for 1 minute and can't start another frenzy for 1 minute.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "enQieRrITuEQZxx2",
@@ -4046,7 +4046,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "fJImDBQfqfjKJOhk",
@@ -4066,7 +4066,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "1xRFPTFtWtGJ9ELw",
@@ -4086,7 +4086,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "vvYsE7OiSSCXhPdr",
@@ -4098,13 +4098,13 @@
     "description":
       "<p><strong>Requirements</strong> You have 1 or 2 bombs in hand</p>\n<p><strong>Effect</strong> You attach the bombs to an inanimate object within your reach, such as a door, wall, or column, and rig them to detonate at a set time. The bombs explode at a specific time you determine (such as after your next action or at the start of your next turn, to a maximum of 1 minute), dealing their damage and splash damage to the inanimate object. Combine this damage for the purpose of resistances and weaknesses, and this damage ignores an amount of the object's Hardness equal to your level. Any creatures adjacent to the hazard take the bombs' splash damage, also combined for the purpose of resistances and weaknesses. As a reminder, since you didn't throw the bombs, Calculated Splash and similar effects don't apply. Making sure your timing is correct requires concentration, so you can't Set Explosives again while you're waiting for a previously set bomb to detonate.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "EhLvRWFKhZ3HtrZO",
@@ -4118,13 +4118,13 @@
     "description":
       "<p>You spend 10 minutes using techniques you've developed to calm your emotions and bring them back under control. This allows you to access your @Compendium[pf2e.actionspf2e.Catharsis]{Catharsis} again.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "VCUz5EnBUJF07j1a",
@@ -4136,13 +4136,13 @@
     "description":
       "<p><strong>Trigger</strong> Your eidolon takes damage that would bring you to 0 Hit Points and comes from an effect other than a death effect</p>\n<p><strong>Effect</strong> You quickly shut the buffer in your link with your eidolon, causing your bonded ally to wink out of existence before you can be laid low. Your eidolon unmanifests, and you can't Manifest your Eidolon for 1 minute. In exchange, you don't take the triggering damage, though your eidolon still suffers any other adverse effects that accompanied the damage.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "VQ5OxaDKE0lCj8Mr",
@@ -4162,7 +4162,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "MY6z2b4GPhAD2Eoa",
@@ -4171,13 +4171,13 @@
     "description":
       "<p><strong>Trigger</strong> Your linked ally takes damage and is within 60 feet</p>\n<p><strong>Effect</strong> The ally takes half damage from the triggering effect (rounded down), and you lose a number of Hit Points equal to the remainder of the damage. You can't trigger this reaction to share damage caused by your ally using this reaction.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "3ZzoI9MTtJFd1Kjl",
@@ -4192,13 +4192,13 @@
     "description":
       "<p><strong>Requirements</strong> Your eidolon is manifested.</p>\n<p>You project your senses into your eidolon, allowing you to perceive through it. When you do, you lose all sensory information from your own body, but can sense through your eidolon's body for up to 1 minute. You can @Compendium[pf2e.actionspf2e.Dismiss]{Dismiss} this effect.</p>\n<hr />\n<p><strong>Special</strong> This action has the trait matching your eidolon's tradition (arcane, divine, occult, or primal). Your eidolon can also use this ability. When it does, it projects its senses into your body.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "hV9wXLvgH2LBaBwk",
@@ -4207,13 +4207,13 @@
     "description":
       "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Effect</strong> You Interact to draw a @Compendium[pf2e.equipment-srd.Hand Crossbow]{Hand Crossbow} and Strike with it, or you Strike with a loaded hand crossbow you're already holding and then Interact to stow it.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "7blmbDrQFNfdT731",
@@ -4232,7 +4232,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "A4L90h7FIgO5EyBx",
@@ -4244,13 +4244,13 @@
     "description":
       "<p><strong>Requirements</strong> You're wielding a firearm that has the kickback or scatter trait, or a two-handed crossbow.</p>\n<hr />\n<p>With unbelievable force, you charge and smash your weapon into a target before digging in your heels and pulling the trigger. Leap or Stride, then make a Strike with the required firearm or crossbow against an adjacent target. This Strike deals an additional [[/r {3d8}[bludgeoning]]]{3d8 bludgeoning damage} and ignores 10 points of the target's Hardness (if any), or of their shield's Hardness if the target uses Shield Block.</p>\n<p>After the Strike, you become @Compendium[pf2e.conditionitems.Immobilized]{Immobilized} and position the required weapon defensively, gaining a +1 circumstance bonus to AC, or a +2 circumstance bonus if the chosen weapon has the parry trait. Both effects last until the start of your next turn. If a force would move you while you're immobilized in this way, it must succeed at an appropriate check against your class DC.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "pTHMZLqWDJ3lkan9",
@@ -4262,13 +4262,13 @@
     "description":
       "<p><strong>Trigger</strong> A creature attempts a flat check to target you because you're concealed or hidden due to fog, haze, mist, or smoke</p>\n<p><strong>Effect</strong> You shroud yourself in smoke, making it harder for your foe to hit you. If you're @Compendium[pf2e.conditionitems.Concealed]{Concealed}, the DC of the flat check increases from 5 to 7; if you're @Compendium[pf2e.conditionitems.Hidden]{Hidden}, it increases from 11 to 13.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Lost Omens: Ancestry Guide",
+      "short_name": "Ancestry Guide",
+      "abbreviation": "LO:AG",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "VMozDqMMuK5kpoX4",
@@ -4288,7 +4288,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "mVscmsZWWcVACdU5",
@@ -4303,13 +4303,13 @@
     "description":
       "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p>To be a tengu is to be unburdened by the concerns of the world below. You grow a pair of magical wings or expand your existing ones. For 5 minutes, you gain a @Compendium[pf2e.actionspf2e.Fly]{Fly} Speed equal to your land Speed or 20 feet, whichever is greater.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "VNuOwXIHafSLHvsZ",
@@ -4318,13 +4318,13 @@
     "description":
       "<p><strong>Requirements</strong> You're wielding your bonded beast gun</p>\n<p><strong>Effect</strong> You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell do not occur immediately but are imbued into the beast gun you're wielding. Make a Strike with that beast gun. Your spell flies with the ammunition, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for the purposes of determining your multiple attack penalty, but you don't apply the penalty until after you've completed resolving the attack and spell.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 3 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "QDW9H8XLIjuW2fE4",
@@ -4336,13 +4336,13 @@
     "description":
       "<p><strong>Frequency</strong> until recharged (see below)</p>\n<hr />\n<p>You channel a spell into a punch or sword thrust to deliver a combined attack. You Cast a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell don't occur immediately but are imbued into your attack instead. Make a melee Strike with a weapon or unarmed attack. Your spell is coupled with your attack, using your attack roll result to determine the effects of both the Strike and the spell. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the arcane trait, making it magical.</p>\n<p>After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the concentrate trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "hPZQ5vA9QHEPtjFW",
@@ -4361,7 +4361,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "6OZfIjiPjWTIe7Pr",
@@ -4373,13 +4373,13 @@
     "description":
       "<p><strong>Requirements</strong> You're wielding a loaded firearm or loaded crossbow.</p>\n<hr />\n<p>You go into a vicious spin, smashing your weapon into those nearby and increasing your momentum by firing. All creatures adjacent to you take 1d6 bludgeoning damage plus your Strength modifier; this increases to 2d6 if your firearm has a striking rune, 3d6 if it has a greater striking rune, and 4d6 if it has a major striking rune. This ability does not apply other effects that increase damage with your firearm Strikes such as weapon specialization. Creatures affected by this attack must attempt a basic Reflex save. A creature that fails its save is also pushed 5 feet directly away from you.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 3 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "kMcV8e5EZUxa6evt",
@@ -4399,7 +4399,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "OdIUybJ3ddfL7wzj",
@@ -4418,7 +4418,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "RDXXE7wMrSPCLv5k",
@@ -4437,7 +4437,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "D2PNfIw7U6Ks0VY4",
@@ -4449,13 +4449,13 @@
     "description":
       "<p><strong>Cost</strong> 1 Resolve Point</p>\n<hr />\n<p>Regain Stamina Points equal to half your maximum.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Gamemastery Guide",
+      "short_name": "Gamemastery Guide",
+      "abbreviation": "GG",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "UHpkTuCtyaPqiCAB",
@@ -4474,7 +4474,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "9gDMkIfDifh61yLz",
@@ -4492,7 +4492,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "Bcxarzksqt9ezrs6",
@@ -4510,7 +4510,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "VjxZFuUXrCU94MWR",
@@ -4528,7 +4528,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "sL1J8cFwpy1lI359",
@@ -4546,7 +4546,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "49y9Ec4bDii8pcD3",
@@ -4565,7 +4565,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "3f5DMFu8fPiqHpRg",
@@ -4583,7 +4583,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "XSGlLjI80LDCimAP",
@@ -4601,7 +4601,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "c8TGiZ48ygoSPofx",
@@ -4620,7 +4620,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "ev8OHpBO3xq3Zt08",
@@ -4639,7 +4639,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "yh9O9BQjwWrAIiuf",
@@ -4657,7 +4657,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "ust1jJSCZQUhBZIz",
@@ -4675,7 +4675,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "qc0VsZ0UesnurUUB",
@@ -4694,7 +4694,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "gxtq81VAhpmNvEgA",
@@ -4706,13 +4706,13 @@
     "description":
       "<p>You attempt to manipulate the magical essence of a ley line that you're aware of within 30 feet. The GM determines the DC based on the hard DC for the ley line's level.</p>\n<hr />\n<p><strong>Critical Success</strong> You gain the ley line's benefits until the end of your next turn.</p>\n<p><strong>Success</strong> You gain the ley line's benefits until the end of your turn.</p>\n<p><strong>Failure</strong> You take mental damage equal to 1d6 × the ley line's level. You can't Tap the Ley Line again for 1 hour.</p>\n<p><strong>Critical Failure</strong> As failure, and you're subject to the ley line's backlash effect. You can't Tap the Ley Line again for 24 hours.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "EeM0Czaep7G5ZSh5",
@@ -4730,7 +4730,7 @@
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "YpuEmI1fJBZD3kMc",
@@ -4742,13 +4742,13 @@
     "description":
       "<p>Stretching to extend its body to its limits, your eidolon attacks a foe that would normally be beyond its reach. Your eidolon makes a melee unarmed Strike, increasing its reach by 5 feet for that Strike.</p>\n<p>If the unarmed attack has the disarm, shove, or trip trait, the eidolon can use the corresponding action instead of a Strike.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "kUME7DMhhHH6eIiH",
@@ -4761,13 +4761,13 @@
     "description":
       "<p><strong>Trigger</strong> You roll your lucky number as your d20 result on a non‑secret attack roll, saving throw, or skill check</p>\n<p><strong>Effect</strong> You call upon the fortune stored within your lucky number and reroll the triggering check. However, pushing your luck has a price: if your result on the reroll is the same number again, you critically fail, regardless of what degree of success you ordinarily would have received.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "9kIvFxA5V9rvNWiH",
@@ -4779,13 +4779,13 @@
     "description":
       "<p>As you sink deep into a state of analytical calm and focus on the foe before you, your hands reload a bullet instinctively. Attempt a Recall Knowledge check against an opponent you can see and then Interact to reload.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "W4M8L9WepGLamlHs",
@@ -4800,7 +4800,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "6SAdjml3OZw0BZnn",
@@ -4819,13 +4819,13 @@
     "description":
       "<p>The target unleashes a powerful vocalization. Each enemy in a 10- foot emanation takes 4d8 sonic damage with a basic Will save against your spell DC. A creature that fails its Will save is also @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage from the roar increases by 2d8.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "kKKHwVUnroKuAnOt",
@@ -4844,7 +4844,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "EA5vuSgJfiHH7plD",
@@ -4865,7 +4865,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "TC7OcDa7JlWbqMaN",
@@ -4885,7 +4885,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "KjoCEEmPGTeFE4hh",
@@ -4904,7 +4904,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "1kGNdIIhuglAjIp9",
@@ -4925,7 +4925,7 @@
       "color": null
     },
     "duration": { "kind": "passive" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "ge56Lu1xXVFYUnLP",
@@ -4944,7 +4944,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "21WIfSu7Xd7uKqV8",
@@ -4963,7 +4963,7 @@
       "color": null
     },
     "duration": { "kind": "action", "quantity": 1 },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "F0JgJR2rXKOg9k1z",
@@ -4978,7 +4978,7 @@
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "Defensive" ]
+    "category": [ "defensive" ]
   },
   {
     "id": "iJLzVonevhsi2uPs",
@@ -4993,13 +4993,13 @@
     "description":
       "<p><strong>Frequency</strong> once per 10 minutes</p>\n<p>Your eidolon summons images of its sin into the mind of a target creature within 30 feet, tormenting and confusing the target. The target must attempt a Will save against your spell DC with the following effects. The effects last until the end of your next turn, but your eidolon can use a single action, which has the concentrate trait, to extend the effects until the end of your next turn (like Sustaining a Spell), to a maximum duration of 1 minute.</p>\n<p>If the target is evil, it takes a -2 circumstance penalty to its save. Regardless of whether it succeeds, the target becomes temporarily immune for 1 day.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target can't use reactions.</p>\n<p><strong>Failure</strong> The target is @Compendium[pf2e.conditionitems.Slowed]{Slowed 1} and can't use reactions.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is also @Compendium[pf2e.conditionitems.Confused]{Confused} for 1 round. The confusion can't be extended, but the other effects can.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "vO0Y1dVjNfbDyT4S",
@@ -5011,13 +5011,13 @@
     "description":
       "<p>Your careful shot against an unsuspecting opponent pierces a vital artery or organ. Make a ranged Strike. If the target is @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed}, the Strike deals an extra die of weapon damage, and the foe takes persistent bleed damage equal to the amount of precision damage from your One Shot, One Kill.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Guns & Gears",
+      "short_name": "Guns & Gears",
+      "abbreviation": "G&G",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "7pdG8l9POMK76Lf2",
@@ -5029,13 +5029,13 @@
     "description":
       "<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Trigger</strong> You attempt a saving throw against a magical effect, but you haven't rolled yet</p>\n<hr />\n<p><strong>Effect</strong> You call on the power of a personal, eldritch sign of protection, which flares brightly before slowly fading. You gain a +2 circumstance bonus to the triggering saving throw, or a +3 circumstance bonus if the effect is a curse.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
       "color": null
     },
     "duration": { "kind": "reaction" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "tu5viJZT4zFE1sYn",
@@ -5047,13 +5047,13 @@
     "description":
       "<p>Your eidolon lashes out in all directions. It makes a melee unarmed Strike against up to four enemies within reach. It can choose different unarmed attacks for each enemy. Each attack counts toward your multiple attack penalty, but you don't increase your penalty until the eidolon has made all its attacks.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "action", "quantity": 2 },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   },
   {
     "id": "N6U02s9qJKQIvmQd",
@@ -5068,13 +5068,13 @@
     "description":
       "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You are about to roll an attack roll, saving throw, or skill check</p>\n<p><strong>Effect</strong> You wish aloud for success. Roll the check twice and take the higher result.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "None" ]
+    "category": [ "none" ]
   },
   {
     "id": "OJ9cIvPukPT0rppR",
@@ -5087,12 +5087,12 @@
     "description":
       "<p><strong>Frequency</strong> once per minute</p>\n<p>Your eidolon gathers the power of the mightiest wyrms to make its magical breath even more spectacular. If your eidolon's next action is to use Breath Weapon, both the number of damage dice and area of the Breath Weapon are doubled.</p>",
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "Secrets of Magic",
+      "short_name": "Secrets of Magic",
+      "abbreviation": "SM",
       "color": null
     },
     "duration": { "kind": "free" },
-    "category": [ "Offensive" ]
+    "category": [ "offensive" ]
   }
 ]

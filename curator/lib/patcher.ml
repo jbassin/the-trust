@@ -10,6 +10,48 @@ module Info = struct
     }
   [@@deriving sexp]
 
+  let yaml_of_t { computed; manual } : Yaml.t =
+    let computed =
+      `O
+        (String.Map.to_alist computed
+        |> List.map ~f:(fun (key, value) ->
+               let value =
+                 match value with
+                 | None -> `Null
+                 | Some str -> `String str
+               in
+               key, value))
+    in
+    let manual =
+      `O
+        (String.Map.to_alist manual
+        |> List.map ~f:(fun (key, value) -> key, `String value))
+    in
+    `O [ "computed", computed; "manual", manual ]
+  ;;
+
+  let t_of_yaml (yaml : Yaml.t) : t =
+    match yaml with
+    | `O [ ("computed", `O computed); ("manual", `O manual) ] ->
+      let computed =
+        List.map computed ~f:(fun (key, value) ->
+            match value with
+            | `Null -> key, None
+            | `String value -> key, Some value
+            | _ -> raise_s [%message "failed to parse value" (value : Yaml.t)])
+        |> String.Map.of_alist_exn
+      in
+      let manual =
+        List.map manual ~f:(fun (key, value) ->
+            match value with
+            | `String value -> key, value
+            | _ -> raise_s [%message "failed to parse value" (value : Yaml.t)])
+        |> String.Map.of_alist_exn
+      in
+      { computed; manual }
+    | _ -> raise_s [%message "failed to read yaml" (yaml : Yaml.t)]
+  ;;
+
   let create () = { computed = String.Map.empty; manual = String.Map.empty }
 end
 
@@ -24,7 +66,7 @@ module Make (P : P) : S with type t = P.t = struct
       }
 
     let internal =
-      let path = [%string "%{P.name}-%{P.kind}.sexp"] in
+      let path = [%string "%{P.name}-%{P.kind}.yml"] in
       { path; prev_info = Info.create (); next_info = Info.create () }
     ;;
 
@@ -35,7 +77,7 @@ module Make (P : P) : S with type t = P.t = struct
       with
       | Error _ | Ok "" -> return ()
       | Ok data ->
-        let data = Sexp.of_string data |> [%of_sexp: Info.t] in
+        let data = Yaml.of_string data |> Info.t_of_yaml in
         internal.prev_info <- data;
         return ()
     ;;
@@ -76,10 +118,8 @@ module Make (P : P) : S with type t = P.t = struct
              | None -> Some key)
       |> List.iter ~f:(fun missing ->
              eprintf "%s\n" [%string "missing patch: %{missing}"]);
-      Writer.save_sexp
-        ~hum:true
-        [%string "%{path}/%{internal.path}"]
-        ([%sexp_of: Info.t] internal.next_info)
+      let contents = Info.yaml_of_t internal.next_info |> Yaml.to_string in
+      Writer.save [%string "%{path}/%{internal.path}"] ~contents
     ;;
   end
 

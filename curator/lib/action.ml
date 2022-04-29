@@ -4,10 +4,10 @@ open! Import
 
 module Category = struct
   type t =
-    | None [@tag "none"]
-    | Defensive [@tag "defensive"]
-    | Offensive [@tag "offensive"]
-    | Passive [@tag "passive"]
+    | None [@name "none"]
+    | Defensive [@name "defensive"]
+    | Offensive [@name "offensive"]
+    | Passive [@name "passive"]
   [@@deriving yojson_of]
 
   let spec =
