@@ -28,7 +28,7 @@ type inter =
   ; traits : Trait.t list
   ; source : Source.t
   }
-[@@deriving yojson_of]
+[@@deriving fields, yojson_of]
 
 val ingest
   :  (module Patcher_intf.S with type t = Source.t)

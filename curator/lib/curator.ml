@@ -24,6 +24,7 @@ let command =
        Runner.run
          [ (module Action.Param)
          ; (module Archetype.Param)
+         ; (module Archetype_feat.Param)
          ; (module Background.Param)
          ; (module Bonus_feat.Param)
          ; (module Condition.Param)

@@ -41,7 +41,7 @@ type inter =
   ; traits : Trait.t list
   ; source : Source.t
   }
-[@@deriving yojson_of]
+[@@deriving fields, yojson_of]
 
 let ingest (patcher : (module Patcher_intf.S with type t = Source.t)) filter_kind json =
   let (module SourcePatcher : Patcher_intf.S with type t = Source.t) = patcher in
