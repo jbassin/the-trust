@@ -4,10 +4,7 @@ open! Import
 open! Feat
 
 let brand = Db.Brand.create "general-feats"
-
-let sourcePatcher : (module Patcher_intf.S with type t = Source.t) =
-  Patcher.source_patcher "general-feats"
-;;
+let sourcePatcher : (module Patcher_intf.S with type t = Source.t) = Patcher.source_patcher "general-feats"
 
 module Param : Runner_intf.S = struct
   type nonrec inter = inter

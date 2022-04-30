@@ -60,19 +60,12 @@ module Path = struct
     | `Assoc lst ->
       (match List.find lst ~f:(fun (name, _) -> String.equal field name) with
       | Some (_, field) -> cast field
-      | None ->
-        raise_s
-          [%message
-            "Unable to find field in json object" (json : Json.t) (field : string)])
-    | json ->
-      raise_s
-        [%message "Json wasn't object, has no fields" (json : Json.t) (field : string)]
+      | None -> raise_s [%message "Unable to find field in json object" (json : Json.t) (field : string)])
+    | json -> raise_s [%message "Json wasn't object, has no fields" (json : Json.t) (field : string)]
   ;;
 
   let path fields cast json =
-    List.fold fields ~init:json ~f:(fun (json : Json.t) field ->
-        get_field json field Fn.id)
-    |> cast
+    List.fold fields ~init:json ~f:(fun (json : Json.t) field -> get_field json field Fn.id) |> cast
   ;;
 
   let ( !! ) v = [ v ]

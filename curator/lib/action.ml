@@ -26,10 +26,10 @@ module Duration = struct
     | Free
     | Reaction
     | Action of int
-    | Range of
-        { lower : t
-        ; higher : t
-        }
+    | Range of {
+        lower: t;
+        higher: t;
+      }
 
   let rec yojson_of_t : t -> Json.t = function
     | Passive -> `Assoc [ "kind", `String "passive" ]
@@ -37,11 +37,7 @@ module Duration = struct
     | Reaction -> `Assoc [ "kind", `String "reaction" ]
     | Action quantity -> `Assoc [ "kind", `String "action"; "quantity", `Int quantity ]
     | Range { lower; higher } ->
-      `Assoc
-        [ "kind", `String "range"
-        ; "lower", yojson_of_t lower
-        ; "higher", yojson_of_t higher
-        ]
+      `Assoc [ "kind", `String "range"; "lower", yojson_of_t lower; "higher", yojson_of_t higher ]
   ;;
 
   let spec =
@@ -55,30 +51,24 @@ module Duration = struct
     | "action", Some 3 -> Action 3
     | "action", _ -> Action 1
     | _ ->
-      eprintf
-        "%s\n"
-        (Sexp.to_string_hum
-           [%message "unexpected action duration" type_ (quantity : int option)]);
+      err [%message "unexpected action duration" type_ (quantity : int option)];
       Action 1
   ;;
 end
 
-type t =
-  { id : string
-  ; name : string
-  ; traits : Trait.t list
-  ; description : string
-  ; source : Source.t
-  ; duration : Duration.t
-  ; category : Category.t
-  }
+type t = {
+  id: string;
+  name: string;
+  traits: Trait.t list;
+  description: string;
+  source: Source.t;
+  duration: Duration.t;
+  category: Category.t;
+}
 [@@deriving yojson_of]
 
 let brand = Db.Brand.create "actions"
-
-let sourcePatcher : (module Patcher_intf.S with type t = Source.t) =
-  Patcher.source_patcher "actions"
-;;
+let sourcePatcher : (module Patcher_intf.S with type t = Source.t) = Patcher.source_patcher "actions"
 
 module Param : Runner_intf.S = struct
   type inter = t

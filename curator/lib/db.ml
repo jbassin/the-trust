@@ -3,16 +3,16 @@ open! Async
 open! Import
 
 module Brand = struct
-  type 'a t =
-    { key : 'a Hmap.key
-    ; name : string
-    }
+  type 'a t = {
+    key: 'a Hmap.key;
+    name: string;
+  }
 
   let create name = { key = Hmap.Key.create (); name }
   let file { name; _ } = name
 end
 
-type t = { mutable db : Hmap.t }
+type t = { mutable db: Hmap.t }
 
 let create () = { db = Hmap.empty }
 let get { db } ~brand = Hmap.get brand.Brand.key db |> String.Map.map ~f:fst

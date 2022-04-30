@@ -9,13 +9,12 @@ module Step = struct
     | Done
 end
 
-type t = { db : Db.t }
+type t = { db: Db.t }
 
 let create () = { db = Db.create () }
 
 let init _ (module P : S) ~patch_path =
-  Deferred.List.iter P.patchers ~f:(fun (module P : Patcher_intf.Inner) ->
-      P.init patch_path)
+  Deferred.List.iter P.patchers ~f:(fun (module P : Patcher_intf.Inner) -> P.init patch_path)
 ;;
 
 let ingest { db } (module P : S) ~db_path =
@@ -41,16 +40,10 @@ let step { db } (module P : S) ~step =
 
 let save { db } (module P : S) ~patch_path ~data_path =
   let data_path = [%string "%{data_path}/%{Db.Brand.file P.brand}.json"] in
-  let data =
-    Db.get db ~brand:P.brand
-    |> String.Map.data
-    |> List.map ~f:P.finalize
-    |> List.map ~f:P.yojson_of_final
-  in
+  let data = Db.get db ~brand:P.brand |> String.Map.data |> List.map ~f:P.finalize |> List.map ~f:P.yojson_of_final in
   let contents = Json.pretty_to_string (`List data) in
   let%bind () = Writer.save data_path ~contents in
-  Deferred.List.iter P.patchers ~f:(fun (module P : Patcher_intf.Inner) ->
-      P.save patch_path)
+  Deferred.List.iter P.patchers ~f:(fun (module P : Patcher_intf.Inner) -> P.save patch_path)
 ;;
 
 let run params ~patch_path ~db_path ~data_path =
@@ -62,11 +55,13 @@ let run params ~patch_path ~db_path ~data_path =
     match Queue.dequeue queue with
     | None -> ()
     | Some (p, idx) ->
-      (match step t p ~step:idx with
-      | Done -> loop ()
-      | Continue ->
-        Queue.enqueue queue (p, idx + 1);
-        loop ())
+      begin
+        match step t p ~step:idx with
+        | Done -> loop ()
+        | Continue ->
+          Queue.enqueue queue (p, idx + 1);
+          loop ()
+      end
   in
   loop ();
   Deferred.List.iter params ~f:(fun param -> save t param ~patch_path ~data_path)

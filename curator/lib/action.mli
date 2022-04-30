@@ -19,24 +19,24 @@ module Duration : sig
     | Free
     | Reaction
     | Action of int
-    | Range of
-        { lower : t
-        ; higher : t
-        }
+    | Range of {
+        lower: t;
+        higher: t;
+      }
   [@@deriving yojson_of]
 
   val spec : t Spec.t
 end
 
-type t =
-  { id : string
-  ; name : string
-  ; traits : Trait.t list
-  ; description : string
-  ; source : Source.t
-  ; duration : Duration.t
-  ; category : Category.t
-  }
+type t = {
+  id: string;
+  name: string;
+  traits: Trait.t list;
+  description: string;
+  source: Source.t;
+  duration: Duration.t;
+  category: Category.t;
+}
 
 val brand : (t * Json.t) Core.String.Map.t Db.Brand.t
 

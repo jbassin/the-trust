@@ -3,10 +3,10 @@ open! Async
 open! Import
 
 module Boosts = struct
-  type t =
-    { first : Ability.t list
-    ; second : Ability.t list
-    }
+  type t = {
+    first: Ability.t list;
+    second: Ability.t list;
+  }
   [@@deriving yojson_of]
 
   let spec =
@@ -17,23 +17,20 @@ module Boosts = struct
   ;;
 end
 
-type t =
-  { id : string
-  ; name : string
-  ; traits : Trait.t list
-  ; description : string
-  ; source : Source.t
-  ; skills : Skill.t list
-  ; lore : string
-  ; boosts : Boosts.t
-  }
+type t = {
+  id: string;
+  name: string;
+  traits: Trait.t list;
+  description: string;
+  source: Source.t;
+  skills: Skill.t list;
+  lore: string;
+  boosts: Boosts.t;
+}
 [@@deriving yojson_of]
 
 let brand = Db.Brand.create "backgrounds"
-
-let sourcePatcher : (module Patcher_intf.S with type t = Source.t) =
-  Patcher.source_patcher "backgrounds"
-;;
+let sourcePatcher : (module Patcher_intf.S with type t = Source.t) = Patcher.source_patcher "backgrounds"
 
 module Param : Runner_intf.S = struct
   type inter = t

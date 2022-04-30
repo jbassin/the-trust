@@ -9,16 +9,16 @@ module Kind = struct
   [@@deriving yojson_of]
 end
 
-type raw =
-  { rarity : string
-  ; value : string list
-  }
+type raw = {
+  rarity: string;
+  value: string list;
+}
 [@@deriving of_yojson] [@@yojson.allow_extra_fields]
 
-type t =
-  { kind : Kind.t
-  ; name : string
-  }
+type t = {
+  kind: Kind.t;
+  name: string;
+}
 [@@deriving fields, yojson_of]
 
 let normalize = function

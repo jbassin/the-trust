@@ -9,16 +9,16 @@ module Kind : sig
   [@@deriving yojson_of]
 end
 
-type raw =
-  { rarity : string
-  ; value : string list
-  }
+type raw = {
+  rarity: string;
+  value: string list;
+}
 [@@deriving of_yojson]
 
-type t =
-  { kind : Kind.t
-  ; name : string
-  }
+type t = {
+  kind: Kind.t;
+  name: string;
+}
 [@@deriving yojson_of]
 
 val spec : t list Spec.t

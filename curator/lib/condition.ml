@@ -2,20 +2,17 @@ open! Core
 open! Async
 open! Import
 
-type t =
-  { id : string
-  ; name : string
-  ; traits : Trait.t list
-  ; description : string
-  ; source : Source.t
-  }
+type t = {
+  id: string;
+  name: string;
+  traits: Trait.t list;
+  description: string;
+  source: Source.t;
+}
 [@@deriving yojson_of]
 
 let brand = Db.Brand.create "conditions"
-
-let sourcePatcher : (module Patcher_intf.S with type t = Source.t) =
-  Patcher.source_patcher "conditions"
-;;
+let sourcePatcher : (module Patcher_intf.S with type t = Source.t) = Patcher.source_patcher "conditions"
 
 module Param : Runner_intf.S = struct
   type inter = t

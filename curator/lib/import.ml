@@ -1,6 +1,9 @@
 open! Core
 open! Async
 
+let normalize str = String.lowercase str |> String.strip
+let err sexp = eprintf "%s\n" (Sexp.to_string_hum sexp)
+
 module Json = struct
   include Yojson.Safe
 

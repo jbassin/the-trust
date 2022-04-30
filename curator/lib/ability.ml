@@ -2,20 +2,21 @@ open! Core
 open! Async
 open! Import
 
-type t =
-  { full_name : string
-  ; abbreviation : string
-  }
+type t = {
+  full_name: string;
+  abbreviation: string;
+}
 [@@deriving yojson_of]
 
 let all =
   List.map
-    [ "Charisma", "cha"
-    ; "Constitution", "con"
-    ; "Dexterity", "dex"
-    ; "Intelligence", "int"
-    ; "Strength", "str"
-    ; "Wisdom", "wis"
+    [
+      "Charisma", "cha";
+      "Constitution", "con";
+      "Dexterity", "dex";
+      "Intelligence", "int";
+      "Strength", "str";
+      "Wisdom", "wis";
     ]
     ~f:(fun (full_name, abbreviation) -> { full_name; abbreviation })
 ;;

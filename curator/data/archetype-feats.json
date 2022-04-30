@@ -919,9 +919,9 @@
       { "kind": [ "standard" ], "name": "dedication" }
     ],
     "source": {
-      "full_name": "Guns & Gears",
-      "short_name": "Guns & Gears",
-      "abbreviation": "G&G",
+      "full_name": "#178: Punks in a Power Keg",
+      "short_name": "Punks in a Power Keg",
+      "abbreviation": "AP:178",
       "color": null
     }
   },
@@ -2840,9 +2840,9 @@
       { "kind": [ "standard" ], "name": "visual" }
     ],
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "#178: Punks in a Power Keg",
+      "short_name": "Punks in a Power Keg",
+      "abbreviation": "AP:178",
       "color": null
     }
   },
@@ -7419,9 +7419,9 @@
       { "kind": [ "standard" ], "name": "archetype" }
     ],
     "source": {
-      "full_name": "Guns & Gears",
-      "short_name": "Guns & Gears",
-      "abbreviation": "G&G",
+      "full_name": "#178: Punks in a Power Keg",
+      "short_name": "Punks in a Power Keg",
+      "abbreviation": "AP:178",
       "color": null
     }
   },
@@ -10582,9 +10582,9 @@
       { "kind": [ "standard" ], "name": "archetype" }
     ],
     "source": {
-      "full_name": "Guns & Gears",
-      "short_name": "Guns & Gears",
-      "abbreviation": "G&G",
+      "full_name": "#178: Punks in a Power Keg",
+      "short_name": "Punks in a Power Keg",
+      "abbreviation": "AP:178",
       "color": null
     }
   },
@@ -13403,9 +13403,9 @@
       { "kind": [ "standard" ], "name": "stance" }
     ],
     "source": {
-      "full_name": "Advanced Player's Guide",
-      "short_name": "Advanced Player's Guide",
-      "abbreviation": "APG",
+      "full_name": "#178: Punks in a Power Keg",
+      "short_name": "Punks in a Power Keg",
+      "abbreviation": "AP:178",
       "color": null
     }
   },
@@ -18288,9 +18288,9 @@
       { "kind": [ "standard" ], "name": "sonic" }
     ],
     "source": {
-      "full_name": "Missing Source",
-      "short_name": "Missing Source",
-      "abbreviation": "ERR",
+      "full_name": "#178: Punks in a Power Keg",
+      "short_name": "Punks in a Power Keg",
+      "abbreviation": "AP:178",
       "color": null
     }
   },
