@@ -25,7 +25,9 @@ let command =
          [ (module Action.Param)
          ; (module Archetype.Param)
          ; (module Background.Param)
+         ; (module Bonus_feat.Param)
          ; (module Condition.Param)
+         ; (module General_feat.Param)
          ]
          ~patch_path
          ~db_path

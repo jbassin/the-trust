@@ -1,0 +1,271 @@
+[
+  {
+    "id": "cMkpLgadlLCzDOv0",
+    "name": "Blessings of the Five",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p><strong>Frequency</strong> once per day</p>\n<p>You call out to the Godclaw to heal your allies. You cast the 3-action version of heal, heightened to a level 1 lower than half your level rounded up. You can select up to four creatures in the area to remain unaffected by the spell. You can instead use this ability to bring a creature within 30 feet that has died within the last round back from the dead. If you do, the creature is restored to 1 Hit Point and is doomed 1 for 24 hours.</p>",
+    "prerequisites": [ "Order of the Godclaw" ],
+    "category": [ "none" ],
+    "duration": { "kind": "action", "quantity": 3 },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "concentrate" },
+      { "kind": [ "standard" ], "name": "divine" },
+      { "kind": [ "standard" ], "name": "healing" },
+      { "kind": [ "standard" ], "name": "manipulate" },
+      { "kind": [ "standard" ], "name": "necromancy" },
+      { "kind": [ "standard" ], "name": "positive" }
+    ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "UHejQS4uCNGRI45t",
+    "name": "Dedication to the Five",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>Your dedication to @Compendium[pf2e.deities.The Godclaw]{The Godclaw} borders on a cleric's. You gain the cleric's @Compendium[pf2e.feats-srd.Domain Initiate]{Domain Initiate} feat but must select perfection, protection, tyranny, or zeal as your domain. In addition, you can use any religious symbol of @Compendium[pf2e.deities.Abadar]{Abadar}, @Compendium[pf2e.deities.Asmodeus]{Asmodeus}, @Compendium[pf2e.deities.Iomedae]{Iomedae}, @Compendium[pf2e.deities.Irori]{Irori}, or @Compendium[pf2e.deities.Torag]{Torag} as your divine focus.</p>",
+    "prerequisites": [ "Order of the Godclaw" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "w7dOgJvqAqyqSeSQ",
+    "name": "Devil Allies",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>You can call in devils to assist your efforts. You gain <em>@Compendium[pf2e.spells-srd.Summon Fiend]{Summon Fiend}</em> as an innate spell of a tradition of your choice, which you can cast once per day. When you cast this spell, you can summon only creatures that have the devil trait. At 16th level and every 2 levels thereafter, the spell is heightened by 1 level (to a maximum of 8th level when you reach 20th level).</p>",
+    "prerequisites": [ "Order of the Gate" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "RkvAuikI0kIZlQTU",
+    "name": "Disillusionment",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>Dreams are pointless illusions you seek to quash. If you roll a success on a saving throw against an illusion or dream effect or a Perception check to disbelieve an illusion, you get a critical success instead. If you roll a critical failure on any of those checks, you get a failure instead.</p>",
+    "prerequisites": [ "Order of the Rack" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "AxjjAoU1IZaNUGGS",
+    "name": "Fear No Law, Fear No One",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>When you roll a success on a save against a fear effect, you get a critical success instead. In addition, any time you gain the @Compendium[pf2e.conditionitems.Frightened]{Frightened} condition, reduce the condition's value by 1. As usual, this ability reduces the initial frightened condition by 1, so if you have multiple similar abilities, they don't both take effect.</p>",
+    "prerequisites": [ "Order of the Scourge" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "jrDCPvkruz8y740Z",
+    "name": "Locate Lawbreakers",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>Your pursuit is relentless, and you are able to magically locate stolen objects and outlaws. You gain <em>@Compendium[pf2e.spells-srd.Locate]{Locate}</em> as an innate spell of a tradition of your choice, which you can cast once per day. If you are a member of the Order of the Gate, when you reach 14th level, the spell is heightened to 5th level.</p>",
+    "prerequisites": [ "Order of the Gate" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "PPSH5vdf90KC95jJ",
+    "name": "Reveal Beasts",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>You are adept at revealing—or creating—weaknesses among those who are a threat to civilization. If you roll a success on a check to Recall Knowledge to identify an animal or a beast, you get a critical success instead. The next time you damage that creature, it gains weakness 5 during that attack to one damage type of your choice that you dealt it.</p>",
+    "prerequisites": [ "Order of the Nail" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "Kz4E8heU12IGcYoi",
+    "name": "Righteous Resistance",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>You can cast <em>@Compendium[pf2e.spells-srd.Resist Energy]{Resist Energy}</em> twice per day as a divine innate spell, except you can target only yourself. If you grant yourself resistance to fire damage, the resistance is equal to either the spell's normal value or to your level, whichever is higher.</p>",
+    "prerequisites": [ "Order of the Pyre" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "1xpqOpguTUAeFsdO",
+    "name": "Seek Injustice",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p><strong>Frequency</strong> once per day</p>\n<p>With a moment spent focusing, you can locate the telltale signs of corruption no matter what means it may use to hide from your sight. For 1 minute, you can see through up to 5 feet of stone, wood, or similar barriers as if they didn't exist (though any amount of metal or denser barriers block this effect).</p>",
+    "prerequisites": [ "Order of the Scourge" ],
+    "category": [ "none" ],
+    "duration": { "kind": "action", "quantity": 3 },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "concentrate" },
+      { "kind": [ "standard" ], "name": "divination" },
+      { "kind": [ "standard" ], "name": "magical" },
+      { "kind": [ "standard" ], "name": "revelation" }
+    ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "AGiIjgLOFuahmwiT",
+    "name": "Shackles of Law",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>You attempt to subdue a target with an attack and a follow-up grab. Make a melee Strike. If it hits and deals damage, you can attempt an Athletics check to Grapple the creature you hit. If you're wielding a flail, you can ignore Grapple's requirement that you have a hand free. Both attacks count toward your multiple attack penalty, but the penalty doesn't increase until after you've made both of them.</p>",
+    "prerequisites": [ "Order of the Chain" ],
+    "category": [ "none" ],
+    "duration": { "kind": "action", "quantity": 2 },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "flourish" }
+    ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "tPhhaCbaQqwenkzx",
+    "name": "Silence Heresy",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>You channel a power that stifles dangerous words. Make a melee Strike. If the attack hits, the target is unable to speak in a voice louder than a whisper for 1 round. This prevents the target from using most auditory effects involving its voice, and it must succeed at a DC 5 flat check to Cast a Spell with a verbal component or the spell is disrupted. If your Strike is a critical hit, the target is entirely unable to speak for 1 round and is limited to a whisper for 1 minute thereafter. Once a creature has been affected by this ability, it is temporarily immune for 1 minute.</p>",
+    "prerequisites": [ "Order of the Rack" ],
+    "category": [ "none" ],
+    "duration": { "kind": "action", "quantity": 2 },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "FlsAYAGEiZg1gg7D",
+    "name": "Spiritual Disruption",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>You channel disruptive power that severs a foe's spiritual connection to their heretical magic. Make a melee Strike. If the attack hits, any time the target attempts to cast a divine or occult spell, the spell is disrupted unless they succeed at a DC 5 flat check (DC 7 on a critical hit); if the target is also @Compendium[pf2e.conditionitems.Stupefied]{Stupefied}, it must attempt the harder of the two flat checks (but not both). This effect lasts for 1 minute.</p>",
+    "prerequisites": [ "Order of the Pyre" ],
+    "category": [ "none" ],
+    "duration": { "kind": "action", "quantity": 2 },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "XOAtP64xiSRIofsY",
+    "name": "Sturdy Bindings",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>Your grapples are incredibly reliable. When you roll a critical failure on a check to Grapple a target, you get a failure instead. In addition, when a creature you have grabbed rolls a failure on its check to Escape, it gets a critical failure instead, and if it rolls a critical success, it gets a success instead.</p>",
+    "prerequisites": [ "Order of the Chain" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  },
+  {
+    "id": "PpJURSJFEHzhutdp",
+    "name": "Trailblazing Stride",
+    "kind": [ "bonus" ],
+    "level": 0,
+    "description":
+      "<p>You are used to moving through the wilderness. While moving on land, you ignore the effects of non-magical difficult terrain.</p>",
+    "prerequisites": [ "Order of the Nail" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [ { "kind": [ "rarity" ], "name": "common" } ],
+    "source": {
+      "full_name": "Lost Omens: Character Guide",
+      "short_name": "Character Guide",
+      "abbreviation": "LO:CG",
+      "color": null
+    }
+  }
+]

@@ -8,6 +8,9 @@ module Category : sig
     | Defensive
     | Offensive
     | Passive
+  [@@deriving yojson_of]
+
+  val spec : t Spec.t
 end
 
 module Duration : sig
@@ -20,6 +23,9 @@ module Duration : sig
         { lower : t
         ; higher : t
         }
+  [@@deriving yojson_of]
+
+  val spec : t Spec.t
 end
 
 type t =

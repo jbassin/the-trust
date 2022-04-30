@@ -1,0 +1,721 @@
+[
+  {
+    "id": "muMOxZyduEFv8UT6",
+    "name": "A Home In Every Port",
+    "kind": [ "general" ],
+    "level": 11,
+    "description":
+      "<p>You have a reputation in towns and villages you've visited, and residents are always willing to open their doors to you.</p>\n<p>When in a town or village, during downtime, you can spend 8 hours to locate a resident willing to provide lodging for you and up to six allies for up to 24 hours at no charge. The standard of living within the acquired lodging is comfortable, and square meals are provided at no cost.</p>\n<p>After 24 hours, you must pay standard prices for further lodging and meals or use this feat again to find a new resident willing to host you.</p>",
+    "prerequisites": [ "Charisma 16" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "downtime" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "ihN8gkHSdPG9Trte",
+    "name": "Adopted Ancestry",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>You're fully immersed in another ancestry's culture and traditions, whether born into them, earned through rite of passage, or bonded through a deep friendship or romance. Choose a common ancestry. You can select ancestry feats from the ancestry you chose, in addition to your character's own ancestry, as long as the ancestry feats don't require any physiological feature that you lack, as determined by the GM.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "m7KjpkAAh9PptJsY",
+    "name": "Ancestral Paragon",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p>Whether through instinct, study, or magic, you feel a deeper connection to your ancestry. You gain a 1st-level ancestry feat.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "BStw1cANwx5baL6d",
+    "name": "Armor Proficiency",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>You become trained in light armor. If you already were trained in light armor, you gain training in medium armor. If you were trained in both, you become trained in heavy armor.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat more than once. Each time, you become trained in the next type of armor above.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "aJUXbe9HJVvv0Mxa",
+    "name": "Breath Control",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>You have incredible breath control, which grants you advantages when air is hazardous or sparse. You can hold your breath for 25 times as long as usual before suffocating. You gain a +1 circumstance bonus to saving throws against inhaled threats, such as inhaled poisons, and if you roll a success on such a saving throw, you get a critical success instead.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "i4yRvVwvXbGZDsD1",
+    "name": "Canny Acumen",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>Your avoidance or observation is beyond the ken of most in your profession. Choose Fortitude saves, Reflex saves, Will saves, or Perception. You become an expert in your choice. At 17th level, you become a master in your choice.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "5ZsmRm7HvFAw2XDZ",
+    "name": "Caravan Leader",
+    "kind": [ "general" ],
+    "level": 11,
+    "description":
+      "<p>You know how to get the most effort out of your allies on the road.</p>\n<p>When @Compendium[pf2e.actionspf2e.Hustle]{Hustling} in a group during exploration mode, your group can Hustle for as long as the member who could Hustle longest on their own, plus an additional 20 minutes beyond that.</p>",
+    "prerequisites": [ "Constitution 18", "Pick Up the Pace" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "I0BhPWqYf1bbzEYg",
+    "name": "Diehard",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>It takes more to kill you than most. You die from the dying condition at dying 5, rather than dying 4.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "z1Z22gTp7J1VRLSR",
+    "name": "Different Worlds",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>Your separate experiences in different societies have evolved into entirely separate lives. Create a second identity for yourself with a different name, history, and background. This identity must correspond to one of the ancestries whose ancestry feats you can select. You gain the trained proficiency rank in the Lore skill from the second background you chose (but you don't gain any of the background's other benefits), and you gain a +4 circumstance bonus to Deception checks when making a statement that would be true of your second identity or when disguising yourself as your second identity.</p>\n<p><strong>Special</strong> At the GM's discretion, this feat can be used against non-humanoids if they have regular contact with humanoids or you are able to disguise yourself as a member of the target's ancestry or type of creature.</p>",
+    "prerequisites": [
+      "ability to select ancestry feats from multiple ancestries"
+    ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "uncommon" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "#147: Tomorrow Must Burn",
+      "short_name": "Tomorrow Must Burn",
+      "abbreviation": "AP:147",
+      "color": null
+    }
+  },
+  {
+    "id": "GdZLxDtFXaQI3Fop",
+    "name": "Expeditious Search",
+    "kind": [ "general" ],
+    "level": 7,
+    "description":
+      "<p>You have a system that lets you search at great speed, finding details and secrets twice as quickly as others can. When Searching, you take half as long as usual to Search a given area. This means that while exploring, you double the Speed you can move while ensuring you've Searched an area before walking into it (up to half your Speed). If you're legendary in Perception, you instead Search areas four times as quickly.</p>",
+    "prerequisites": [ "master in Perception" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "N8Xz5fuW6o7GW124",
+    "name": "Fast Recovery",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>Your body quickly bounces back from afflictions. You regain twice as many Hit Points from resting. Each time you succeed at a Fortitude save against an ongoing disease or poison, you reduce its stage by 2, or by 1 against a virulent disease or poison. Each critical success you achieve against an ongoing disease or poison reduces its stage by 3, or by 2 against a virulent disease or poison. In addition, you reduce the severity of your drained condition by 2 when you rest for a night instead of by 1.</p>",
+    "prerequisites": [ "Constitution 14" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "c9fHUSI5lRdXu1Ic",
+    "name": "Feather Step",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>You step carefully and quickly. You can Step into difficult terrain.</p>",
+    "prerequisites": [ "Dexterity 14" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "dIIqejy4JAVuF0I8",
+    "name": "Fey Influence",
+    "kind": [ "general" ],
+    "level": 5,
+    "description":
+      "<p>You have been exposed to powerful fey magic. You become trained in primal DCs and spell attack rolls. You gain the fey trait and one of the following features which grant an innate primal spell that can be used once per day.</p>\n<ul>\n<li><strong>Anteater</strong> You can launch your tongue forward as a deadly attack, gaining <em>@Compendium[pf2e.spells-srd.Grim Tendrils]{Grim Tendrils}</em>.</li>\n<li><strong>Dryad</strong> Your body is covered in elegant vines, granting you <em>@Compendium[pf2e.spells-srd.Summon Plant or Fungus]{Summon Plant or Fungus}</em></li>\n<li><strong>Gremlin</strong> You have long, bat-like ears and gain <em>@Compendium[pf2e.spells-srd.Bane]{Bane}</em></li>\n<li><strong>Monarch</strong> You have vestigial, insectile features and gain <em>@Compendium[pf2e.spells-srd.Spider Sting]{Spider Sting}</em>.</li>\n</ul>\n<p>This feat gains the trait appropriate for your ancestry (human for human, goblin for goblin, etc.)</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "rare" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Society Scenario #117: The Thorned Monarch",
+      "short_name": "The Thorned Monarch",
+      "abbreviation": "SS:117",
+      "color": null
+    }
+  },
+  {
+    "id": "Ux73dmoF8KnavyUD",
+    "name": "Fleet",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>You move more quickly on foot. Your Speed increases by 5 feet.</p>\n<p>Automatically applied effects:</p>\n<ul>\n<li>+5 untyped bonus to land speed</li>\n</ul>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "Wb3FHiDuY6Nuc0N0",
+    "name": "Hireling Manager",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p>You are able to find and secure better labor than most. When securing a hireling for a service, that hireling gains a +2 circumstance bonus to all skill checks. This circumstance bonus applies to both trained and untrained hirelings and has no effect on the cost of the service or labor provided.</p>",
+    "prerequisites": [ "Charisma 14" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "xT593tHyPkumPuzz",
+    "name": "Improvised Repair",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p>You are skilled at making quick fixes to damaged equipment, but your fixes aren't meant to last forever.</p>\n<p>You make a quick @Compendium[pf2e.actionspf2e.Repair]{Repair} to a broken non-magical item in your possession. Until the item takes damage again, you can still use it as a shoddy item of its type. This repair restores no Hit Points, so the item is easy to destroy. Once the item is Repaired normally such that it is no longer broken, it is also no longer shoddy.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "action", "quantity": 3 },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "2kwXTUjYYhoAGySr",
+    "name": "Incredible Initiative",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "4vu6P3cYoOOeUbLK",
+    "name": "Incredible Investiture",
+    "kind": [ "general" ],
+    "level": 11,
+    "description":
+      "<p>You have an incredible ability to invest more magic items. Increase your limit on invested items from 10 to 12.</p>",
+    "prerequisites": [ "Charisma 16" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "aFoVHsuInMOkTZoQ",
+    "name": "Incredible Scout",
+    "kind": [ "general" ],
+    "level": 11,
+    "description":
+      "<p>When you scout, you are particularly alert for danger, granting your allies precious moments to prepare to fight.</p>\n<p>When using the @Compendium[pf2e.actionspf2e.Scout]{Scout} exploration activity, you grant your allies a +2 circumstance bonus to their initiative rolls instead of a +1 circumstance bonus.</p>",
+    "prerequisites": [ "master in Perception" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "fD9xjrnPfJ8aQxYA",
+    "name": "Keen Follower",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p>Your keen observation of your allies has made you better at following their lead.</p>\n<p>When using the @Compendium[pf2e.actionspf2e.Follow the Expert]{Follow the Expert} activity in exploration mode, you gain a +3 circumstance bonus if the ally you are following is an expert and a +4 circumstance bonus if your ally is a master.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "gfMP2aMs3YGONVeB",
+    "name": "Numb to Death",
+    "kind": [ "general" ],
+    "level": 7,
+    "description":
+      "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Your past has left you numb to death's call. The first time each day that you regain Hit Points while you are @Compendium[pf2e.conditionitems.Dying]{Dying}, you regain additional Hit Points equal to your level, and you neither gain the @Compendium[pf2e.conditionitems.Wounded]{Wounded} condition nor increase the value of this condition.</p>",
+    "prerequisites": [ "Diehard", "You have died at least once" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Lost Omens: Gods & Magic",
+      "short_name": "Gods & Magic",
+      "abbreviation": "LO:G&M",
+      "color": null
+    }
+  },
+  {
+    "id": "38uOVS8fLZxraUrg",
+    "name": "Pick Up The Pace",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p>You lead by example and can help others push themselves beyond their normal limits. When @Compendium[pf2e.actionspf2e.Hustle]{Hustling} in a group during exploration mode, your group can Hustle for up to 20 additional minutes, to a maximum of the amount of time the character with the highest Constitution modifier could Hustle alone.</p>",
+    "prerequisites": [ "Constitution 14" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "lHFz4MmebvPqTb0A",
+    "name": "Prescient Consumable",
+    "kind": [ "general" ],
+    "level": 7,
+    "description":
+      "<p>You can predict which consumables you might need in advance. When using Prescient Planner, you can procure a consumable item from your backpack, instead of a piece of adventuring gear. The consumable item must still be common with a level no higher than half your level, and its Bulk must be low enough that carrying it wouldn't have made you encumbered.</p>",
+    "prerequisites": [ "Prescient Planner" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "bh2jHyyYrkLMsIdX",
+    "name": "Prescient Planner",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p><strong>Cost</strong> the Price of the chosen item</p>\n<p><strong>Requirements</strong> You haven't used this ability since the last time you were able to purchase goods.</p>\n<hr />\n<p>You regularly create convoluted plans and contingencies, using your resources to enact them. You take 1 minute to remove your backpack, then carefully remove an item you hadn't previously declared that you purchased-you intuited that you would come to need the item and purchased it at the latest opportunity.</p>\n<p>The item must be a piece of adventuring gear (from the table of the <em>Core Rulebook</em> or other sources of adventuring gear), and can't be a weapon, armor, alchemical item, magic item, or other treasure.</p>\n<p>It must be common with a level no higher than half your level, and its Bulk must be low enough that carrying it wouldn't have made you encumbered.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "Rq5wkA8DtsmbzoGV",
+    "name": "Ride",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>When you Command an Animal you're mounted on to take a move action (such as Stride), you automatically succeed instead of needing to attempt a check. Any animal you're mounted on acts on your turn, like a minion. If you Mount an animal in the middle of an encounter, it skips its next turn and then acts on your next turn.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "jM72TjJ965jocBV8",
+    "name": "Shield Block",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p><strong>Trigger</strong> While you have your shield raised, you would take damage from a physical attack</p>\n<hr />\n<p>You snap your shield in place to ward off a blow. Your shield prevents you from taking an amount of damage up to the shield's Hardness. You and the shield each take any remaining damage, possibly breaking or destroying the shield.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "reaction" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "wPHZhgKzNw4VcCFt",
+    "name": "Skitter",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p>You can scoot swiftly across the ground. You can @Compendium[pf2e.actionspf2e.Crawl]{Crawl} up to half your Speed.</p>",
+    "prerequisites": [ "Dexterity 16", "Fleet" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "jFmdevE4nKevovzo",
+    "name": "Steel Your Resolve",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p><strong>Cost</strong> 1 Resolve Point</p>\n<hr />\n<p>Regain Stamina Points equal to half your maximum.</p>\n<p>@Compendium[pf2e.action-macros.Steel Your Resolve]{Steel Your Resolve}</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "action", "quantity": 1 },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" },
+      { "kind": [ "standard" ], "name": "stamina" }
+    ],
+    "source": {
+      "full_name": "Gamemastery Guide",
+      "short_name": "Gamemastery Guide",
+      "abbreviation": "GG",
+      "color": null
+    }
+  },
+  {
+    "id": "fOIUmDGa9gkeCHA0",
+    "name": "Supertaster",
+    "kind": [ "general" ],
+    "level": 7,
+    "description":
+      "<p>You have refined your palate and have a discerning sense of taste that can detect abnormalities in the flavor and texture of food and beverages. When eating food or drinking a beverage, you automatically attempt to identify the ingredients, which might alert you to the presence of alterations or additives, such as poisons. The GM rolls a secret Perception check using the poison's level to determine the DC; on a success, you learn that the food or drink was poisoned, but not the specific poison used.</p>\n<p>If you lick or taste something while Investigating or attempting to @Compendium[pf2e.actionspf2e.Recall Knowledge (Lore)]{Recall Knowledge} to identify something, if the taste would provide relevant additional information (at the GM's discretion), you gain a +2 circumstance bonus to your check.</p>",
+    "prerequisites": [ "master in Perception" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "9QQnv7nFpsNCGE89",
+    "name": "Thorough Search",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p>You take your time searching to ensure you find everything. When @Compendium[pf2e.actionspf2e.Search]{Searching}, you can take twice as long to search. Normally this means you Search at up to one quarter of your Speed, to a maximum of 150 feet per minute to check everything, or 75 feet per minute to check everything before you walk into it. If you do, you gain a +2 circumstance bonus to your Perception checks to @Compendium[pf2e.actionspf2e.Seek]{Seek}.</p>",
+    "prerequisites": [ "expert in Perception" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "AmP0qu7c5dlBSath",
+    "name": "Toughness",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>You can withstand more punishment than most before succumbing. Increase your maximum Hit Points by your level. The DC of recovery checks is equal to 9 + your dying condition value.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "uudiUylT09WnHN7e",
+    "name": "True Perception",
+    "kind": [ "general" ],
+    "level": 19,
+    "description":
+      "<p>Your perceptive abilities and ability to process sensory information are so far beyond the pale that you notice minute discrepancies in all sorts of illusions and transmutations. You are constantly under the effects of a 6th-level <em>@Compendium[pf2e.spells-srd.True Seeing]{True Seeing}</em> spell, using your Perception modifier for the counteract check.</p>",
+    "prerequisites": [ "legendary in Perception" ],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" },
+      { "kind": [ "standard" ], "name": "revelation" }
+    ],
+    "source": {
+      "full_name": "Advanced Player's Guide",
+      "short_name": "Advanced Player's Guide",
+      "abbreviation": "APG",
+      "color": null
+    }
+  },
+  {
+    "id": "9jGaBxLUtevZYcZO",
+    "name": "Untrained Improvisation",
+    "kind": [ "general" ],
+    "level": 3,
+    "description":
+      "<p>You've learned how to handle situations when you're out of your depth. Your proficiency bonus to untrained skill checks is equal to half your level instead of +0. If you're 7th level or higher, the bonus increases to your full level instead. This doesn't allow you to use the skill's trained actions.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  },
+  {
+    "id": "x9wxQ61HNkAVbDHr",
+    "name": "Weapon Proficiency",
+    "kind": [ "general" ],
+    "level": 1,
+    "description":
+      "<p>You become trained in all simple weapons. If you were already trained in all simple weapons, you become trained in all martial weapons. If you were already trained in all martial weapons, you become trained in one advanced weapon of your choice.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat more than once. Each time you do, you become trained in additional weapons as appropriate, following the above progression.</p>",
+    "prerequisites": [],
+    "category": [ "none" ],
+    "duration": { "kind": "passive" },
+    "traits": [
+      { "kind": [ "rarity" ], "name": "common" },
+      { "kind": [ "standard" ], "name": "general" }
+    ],
+    "source": {
+      "full_name": "Core Rulebook",
+      "short_name": "Core Rulebook",
+      "abbreviation": "CR",
+      "color": null
+    }
+  }
+]
