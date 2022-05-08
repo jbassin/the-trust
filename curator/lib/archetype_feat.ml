@@ -33,17 +33,13 @@ let rec source_of_prereq db feat =
   match Source.is_missing feat.source with
   | false -> Some feat.source
   | true ->
-    begin
-      match List.filter_map feat.prerequisites ~f:(maybe_get_feat ~db) with
-      | [] -> None
-      | feats ->
-        let sourced, unsourced = List.partition_tf feats ~f:(fun { source; _ } -> Source.is_missing source) in
-        begin
-          match List.hd sourced with
-          | Some { source; _ } -> Some source
-          | None -> List.map unsourced ~f:(source_of_prereq db) |> List.hd |> Option.join
-        end
-    end
+    (match List.filter_map feat.prerequisites ~f:(maybe_get_feat ~db) with
+    | [] -> None
+    | feats ->
+      let sourced, unsourced = List.partition_tf feats ~f:(fun { source; _ } -> Source.is_missing source) in
+      (match List.hd sourced with
+      | Some { source; _ } -> Some source
+      | None -> List.map unsourced ~f:(source_of_prereq db) |> List.hd |> Option.join))
 ;;
 
 module Param : Runner_intf.S = struct
@@ -60,34 +56,26 @@ module Param : Runner_intf.S = struct
 
   let steps =
     [
-      begin
-        fun ~key:_ ~data ~db ~raw ->
+      (fun ~key:_ ~data ~db ~raw ->
         let (module SourcePatcher : Patcher_intf.S with type t = Source.t) = sourcePatcher in
         match Source.is_missing data.source with
         | false -> data
         | true ->
-          begin
-            match source_of_archetype db data.name with
-            | None -> data
-            | Some source ->
-              SourcePatcher.forget raw;
-              { data with source }
-          end
-      end;
-      begin
-        fun ~key:_ ~data ~db ~raw ->
+          (match source_of_archetype db data.name with
+          | None -> data
+          | Some source ->
+            SourcePatcher.forget raw;
+            { data with source }));
+      (fun ~key:_ ~data ~db ~raw ->
         let (module SourcePatcher : Patcher_intf.S with type t = Source.t) = sourcePatcher in
         match Source.is_missing data.source with
         | false -> data
         | true ->
-          begin
-            match source_of_prereq db data with
-            | None -> data
-            | Some source ->
-              SourcePatcher.forget raw;
-              { data with source }
-          end
-      end;
+          (match source_of_prereq db data with
+          | None -> data
+          | Some source ->
+            SourcePatcher.forget raw;
+            { data with source }));
     ]
   ;;
 

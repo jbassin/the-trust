@@ -55,13 +55,11 @@ let run params ~patch_path ~db_path ~data_path =
     match Queue.dequeue queue with
     | None -> ()
     | Some (p, idx) ->
-      begin
-        match step t p ~step:idx with
-        | Done -> loop ()
-        | Continue ->
-          Queue.enqueue queue (p, idx + 1);
-          loop ()
-      end
+      (match step t p ~step:idx with
+      | Done -> loop ()
+      | Continue ->
+        Queue.enqueue queue (p, idx + 1);
+        loop ())
   in
   loop ();
   Deferred.List.iter params ~f:(fun param -> save t param ~patch_path ~data_path)

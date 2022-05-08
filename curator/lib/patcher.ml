@@ -83,23 +83,19 @@ module Make (P : P) : S with type t = P.t = struct
             internal.next_info.manual <- String.Map.set internal.next_info.manual ~key ~data;
             P.lookup data |> Option.value ~default:P.default
           | None ->
-            begin
-              match
-                try Spec.resolve P.accessor json with
-                | _ -> None
-              with
-              | Some t -> t
+            (match
+               try Spec.resolve P.accessor json with
+               | _ -> None
+             with
+            | Some t -> t
+            | None ->
+              (match String.Map.find internal.prev_info.computed key with
+              | Some data ->
+                internal.next_info.computed <- String.Map.set internal.next_info.computed ~key ~data;
+                Option.bind data ~f:P.lookup |> Option.value ~default:P.default
               | None ->
-                begin
-                  match String.Map.find internal.prev_info.computed key with
-                  | Some data ->
-                    internal.next_info.computed <- String.Map.set internal.next_info.computed ~key ~data;
-                    Option.bind data ~f:P.lookup |> Option.value ~default:P.default
-                  | None ->
-                    internal.next_info.computed <- String.Map.set internal.next_info.computed ~key ~data:None;
-                    P.default
-                end
-            end)
+                internal.next_info.computed <- String.Map.set internal.next_info.computed ~key ~data:None;
+                P.default)))
     ;;
 
     let forget json =
@@ -134,11 +130,9 @@ let source_patcher name : (module S with type t = Source.t) =
     let key = function
       | `Assoc t ->
         let json = List.find_exn t ~f:(fun (name, _) -> String.equal name "name") |> snd in
-        begin
-          match json with
-          | `String name -> name
-          | t -> raise_s [%message "Failure to parse key" (t : Json.t)]
-        end
+        (match json with
+        | `String name -> name
+        | t -> raise_s [%message "Failure to parse key" (t : Json.t)])
       | t -> raise_s [%message "Failure to parse key" (t : Json.t)]
     ;;
 
